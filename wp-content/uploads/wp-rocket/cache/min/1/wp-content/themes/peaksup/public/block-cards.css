@@ -1,0 +1,575 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-cards .wrapper .cardslider .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5625rem;
+    gap: .9375rem;
+    color: rgba(57, 62, 70, .4);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-cards .wrapper .cardslider .pagination div {
+    align-self: center
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-cards {
+    padding: 0 min(.375rem + 5.875 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-cards .wrapper {
+    overflow: hidden;
+    padding-top: min(1.25rem + 5 * ((100vw - 20rem) / 100), 6.25rem);
+    padding-bottom: min(1.25rem + 5 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-cards .wrapper.spacing-small {
+    padding-top: min(1.25rem + .3125 * ((100vw - 20rem) / 100), 1.5625rem);
+    padding-bottom: min(1.25rem + .3125 * ((100vw - 20rem) / 100), 1.5625rem)
+}
+
+.block-cards .wrapper.spacing-medium {
+    padding-top: min(1.25rem + 1.875 * ((100vw - 20rem) / 100), 3.125rem);
+    padding-bottom: min(1.25rem + 1.875 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-cards .wrapper.spacing-large {
+    padding-top: min(1.25rem + 5 * ((100vw - 20rem) / 100), 6.25rem);
+    padding-bottom: min(1.25rem + 5 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-cards .wrapper.spacing-none {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.block-cards .wrapper .title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem);
+    margin-bottom: min(1.5625rem + 3.4375 * ((100vw - 20rem) / 100), 5rem)
+}
+
+@media(min-width:64.1rem) {
+    .block-cards .wrapper .title {
+        flex-wrap: nowrap
+    }
+}
+
+.block-cards .wrapper .title h3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.block-cards .wrapper .title .component-button {
+    align-self: center;
+    width: 100%;
+    text-align: center
+}
+
+@media(min-width:48.1rem) {
+    .block-cards .wrapper .title .component-button {
+        width: auto
+    }
+}
+
+.block-cards .wrapper .cards {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    gap: min(.625rem + 1.25 * ((100vw - 20rem) / 100), 1.875rem)
+}
+
+@media(min-width:64rem) {
+    .block-cards .wrapper .cards {
+        display: grid
+    }
+}
+
+@media(min-width:75rem) {
+    .block-cards .wrapper .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr
+    }
+}
+
+.block-cards .wrapper .cards .card {
+    background-color: #f9f5eb;
+    color: #393e46;
+    transition: .5s;
+    height: min(34.375rem + 3.125 * ((100vw - 64rem) / 56), 37.5rem);
+    overflow: hidden
+}
+
+.block-cards .wrapper .cards .card:nth-child(1),
+.block-cards .wrapper .cards .card:nth-child(3),
+.block-cards .wrapper .cards .card:nth-child(8) {
+    border-radius: 0 min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem) min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem) min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem)
+}
+
+.block-cards .wrapper .cards .card:nth-child(2),
+.block-cards .wrapper .cards .card:nth-child(4),
+.block-cards .wrapper .cards .card:nth-child(5),
+.block-cards .wrapper .cards .card:nth-child(6),
+.block-cards .wrapper .cards .card:nth-child(7) {
+    border-radius: min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem) 0 min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem) min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem)
+}
+
+.block-cards .wrapper .cards .card:not(:hover) .buttons-container {
+    height: 0
+}
+
+.block-cards .wrapper .cards .card:hover {
+    background-color: #233e8b;
+    color: #fff
+}
+
+.block-cards .wrapper .cards .card:hover .content h4 {
+    margin-bottom: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-cards .wrapper .cards .card:hover .content .component-button {
+    opacity: 1;
+    visibility: visible
+}
+
+.block-cards .wrapper .cards .card.has-icon .content h4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.block-cards .wrapper .cards .card.no-button,
+.block-cards .wrapper .cards .card.no-icon {
+    height: auto
+}
+
+.block-cards .wrapper .cards .card.no-button .buttons-container,
+.block-cards .wrapper .cards .card.no-icon .buttons-container {
+    height: auto
+}
+
+.block-cards .wrapper .cards .card.no-button .content .details,
+.block-cards .wrapper .cards .card.no-icon .content .details {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around
+}
+
+.block-cards .wrapper .cards .card.no-button .content h4,
+.block-cards .wrapper .cards .card.no-icon .content h4 {
+    margin-bottom: min(1.5625rem + 3.125 * ((100vw - 20rem) / 100), 4.6875rem);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.block-cards .wrapper .cards .card.no-button .content .component-button,
+.block-cards .wrapper .cards .card.no-icon .content .component-button {
+    opacity: 1;
+    visibility: visible
+}
+
+.block-cards .wrapper .cards .card.no-button {
+    margin-bottom: 0
+}
+
+.block-cards .wrapper .cards .card.no-button .content {
+    height: auto
+}
+
+.block-cards .wrapper .cards .card .content {
+    padding: 5rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: stretch;
+    height: 100%
+}
+
+.block-cards .wrapper .cards .card .content h4 {
+    width: 100%;
+    transition: .5s margin
+}
+
+.block-cards .wrapper .cards .card .content .icon {
+    margin-bottom: clamp(2.5rem, 2.5rem + 0 * ((100vw - 20rem) / 100), 2.5rem);
+    width: 100%
+}
+
+.block-cards .wrapper .cards .card .content .icon svg {
+    display: block;
+    margin: 0 auto;
+    position: relative
+}
+
+.block-cards .wrapper .cards .card .content .icon svg img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+    max-width: 11.875rem;
+    max-height: 11.875rem;
+    font-size: 0
+}
+
+.block-cards .wrapper .cards .card .content .icon .icon-image {
+    display: block;
+    margin: 0 auto;
+    position: relative
+}
+
+.block-cards .wrapper .cards .card .content .icon .icon-image img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+    max-width: 11.875rem;
+    max-height: 11.875rem;
+    font-size: 0
+}
+
+.block-cards .wrapper .cards .card .content .icon .icon-image img {
+    display: block;
+    margin: 0 auto
+}
+
+.block-cards .wrapper .cards .card .content .details {
+    width: 100%
+}
+
+.block-cards .wrapper .cards .card .content .buttons-container {
+    transition: .5s height;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: flex-end
+}
+
+.block-cards .wrapper .cards .card .content .component-button {
+    visibility: hidden;
+    opacity: 0;
+    width: 100%;
+    transition: .5s
+}
+
+.block-cards .wrapper .cardslider {
+    display: block;
+    width: 93%
+}
+
+@media(min-width:64.1rem) {
+    .block-cards .wrapper .cardslider {
+        display: none
+    }
+}
+
+.block-cards .wrapper .cardslider .swiper-wrapper .swiper-slide {
+    height: auto
+}
+
+.block-cards .wrapper .cardslider .swiper-wrapper .swiper-slide .slide-content {
+    height: 100%
+}
+
+.block-cards .wrapper .cardslider .card {
+    background-color: #f9f5eb;
+    color: #393e46;
+    transition: .5s;
+    height: 100%;
+    overflow: hidden
+}
+
+.block-cards .wrapper .cardslider .card:nth-child(1),
+.block-cards .wrapper .cardslider .card:nth-child(3),
+.block-cards .wrapper .cardslider .card:nth-child(8) {
+    border-radius: 0 min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem) min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem) min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem)
+}
+
+.block-cards .wrapper .cardslider .card:nth-child(2),
+.block-cards .wrapper .cardslider .card:nth-child(4),
+.block-cards .wrapper .cardslider .card:nth-child(5),
+.block-cards .wrapper .cardslider .card:nth-child(6),
+.block-cards .wrapper .cardslider .card:nth-child(7) {
+    border-radius: min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem) 0 min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem) min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem)
+}
+
+.block-cards .wrapper .cardslider .card .content {
+    padding: min(4.0625rem + .9375 * ((100vw - 20rem) / 100), 5rem) min(.9375rem + .9375 * ((100vw - 20rem) / 100), 1.875rem) min(1.5625rem + 3.4375 * ((100vw - 20rem) / 100), 5rem) min(.9375rem + .9375 * ((100vw - 20rem) / 100), 1.875rem);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    height: 100%
+}
+
+.block-cards .wrapper .cardslider .card .content h4 {
+    width: 100%;
+    margin-bottom: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.block-cards .wrapper .cardslider .card .content .icon {
+    margin-bottom: clamp(2.5rem, 3.75rem + -1.25 * ((100vw - 20rem) / 100), 3.75rem);
+    width: 100%
+}
+
+.block-cards .wrapper .cardslider .card .content .icon svg {
+    display: block;
+    margin: 0 auto;
+    position: relative
+}
+
+.block-cards .wrapper .cardslider .card .content .icon svg img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+    max-width: 11.875rem;
+    max-height: 11.875rem;
+    font-size: 0
+}
+
+.block-cards .wrapper .cardslider .card .content .icon .icon-image {
+    display: block;
+    margin: 0 auto;
+    position: relative
+}
+
+.block-cards .wrapper .cardslider .card .content .icon .icon-image img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center;
+    max-width: 11.875rem;
+    max-height: 11.875rem;
+    font-size: 0
+}
+
+.block-cards .wrapper .cardslider .card .content .icon .icon-image img {
+    display: block;
+    margin: 0 auto
+}
+
+.block-cards .wrapper .cardslider .card .content .component-button {
+    width: 100%
+}

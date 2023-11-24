@@ -1,0 +1,289 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-list-icons .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-list-icons .wrapper-container {
+    padding-bottom: min(3.125rem + 6.25 * ((100vw - 20rem) / 100), 9.375rem);
+    padding-top: min(3.125rem + 3.125 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-list-icons .wrapper-container.spacing-small {
+    padding-bottom: 3.125rem;
+    padding-top: 3.125rem
+}
+
+.block-list-icons .wrapper-container.spacing-medium {
+    padding-bottom: min(3.125rem + 6.25 * ((100vw - 20rem) / 100), 9.375rem);
+    padding-top: min(3.125rem + 3.125 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-list-icons .wrapper-container.spacing-large {
+    padding-bottom: min(3.125rem + 9.375 * ((100vw - 20rem) / 100), 12.5rem);
+    padding-top: min(3.125rem + 6.25 * ((100vw - 20rem) / 100), 9.375rem)
+}
+
+.block-list-icons .wrapper-container.spacing-none {
+    padding-bottom: 0;
+    padding-top: 0
+}
+
+.block-list-icons .wrapper-container.bg-color-quaternary {
+    background-color: #f9f5eb
+}
+
+.block-list-icons .header {
+    text-align: center;
+    padding-bottom: min(2.5rem + 5 * ((100vw - 20rem) / 100), 7.5rem)
+}
+
+.block-list-icons .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: min(3.75rem + 3.125 * ((100vw - 20rem) / 100), 6.875rem) 0
+}
+
+@media(min-width:48rem) {
+    .block-list-icons .list {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+@media(min-width:64rem) {
+    .block-list-icons .list {
+        grid-template-columns: repeat(4, 1fr)
+    }
+}
+
+.block-list-icons .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: min(.9375rem + 2.5 * ((100vw - 20rem) / 100), 3.4375rem)
+}
+
+.block-list-icons .image {
+    position: relative;
+    width: min(6.25rem + 2.1875 * ((100vw - 20rem) / 100), 8.4375rem);
+    height: min(6.25rem + 2.1875 * ((100vw - 20rem) / 100), 8.4375rem);
+    border-radius: 50%;
+    background-color: #4cb078
+}
+
+.block-list-icons .img {
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    height: auto;
+    margin: auto
+}
+
+.block-list-icons .label {
+    color: #4cb078;
+    font-size: min(1.5rem + 1.125 * ((100vw - 20rem) / 100), 2.625rem);
+    font-weight: 500
+}

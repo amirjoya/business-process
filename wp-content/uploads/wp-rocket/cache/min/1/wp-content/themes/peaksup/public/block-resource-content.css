@@ -1,0 +1,490 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-resource-content .wrapper {
+    padding: min(1.5625rem + 4.6875 * ((100vw - 20rem) / 100), 6.25rem) min(.375rem + .875 * ((100vw - 20rem) / 100), 1.25rem)
+}
+
+.block-resource-content .wrapper.spacing-small {
+    padding: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem) min(.375rem + .875 * ((100vw - 20rem) / 100), 1.25rem)
+}
+
+.block-resource-content .wrapper.spacing-medium {
+    padding: min(1.5625rem + 4.6875 * ((100vw - 20rem) / 100), 6.25rem) min(.375rem + .875 * ((100vw - 20rem) / 100), 1.25rem)
+}
+
+.block-resource-content .wrapper.spacing-large {
+    padding: min(1.5625rem + 7.8125 * ((100vw - 20rem) / 100), 9.375rem) min(.375rem + .875 * ((100vw - 20rem) / 100), 1.25rem)
+}
+
+.block-resource-content .wrapper.spacing-none {
+    padding: 0
+}
+
+.block-resource-content .grid-content {
+    display: grid;
+    gap: min(1.5625rem + 4.375 * ((100vw - 20rem) / 100), 5.9375rem)
+}
+
+@media(min-width:64rem) {
+    .block-resource-content .grid-content {
+        grid-template-columns: 1fr min(4.6875rem + 17.8125 * ((100vw - 64rem) / 56), 22.5rem)
+    }
+}
+
+@media(min-width:75rem) {
+    .block-resource-content .grid-content {
+        grid-template-columns: min(20rem + 2.5 * ((100vw - 75rem) / 45), 22.5rem) 1fr min(4.6875rem + 17.8125 * ((100vw - 75rem) / 45), 22.5rem)
+    }
+}
+
+.block-resource-content .grid-content.no-content .columns-index {
+    display: none !important
+}
+
+@media(min-width:64rem) {
+    .block-resource-content .grid-content.no-content {
+        grid-template-columns: 1fr min(4.6875rem + 17.8125 * ((100vw - 64rem) / 56), 22.5rem)
+    }
+}
+
+.block-resource-content .grid-content.no-social .columns-social {
+    display: none !important
+}
+
+@media(min-width:64rem) {
+    .block-resource-content .grid-content.no-social {
+        grid-template-columns: min(20rem + 2.5 * ((100vw - 75rem) / 45), 22.5rem) 1fr
+    }
+}
+
+@media(min-width:64rem) {
+    .block-resource-content .grid-content.no-content.no-social {
+        grid-template-columns: 1fr
+    }
+}
+
+.block-resource-content .columns-social {
+    order: 1
+}
+
+@media(min-width:64rem) {
+    .block-resource-content .columns-social {
+        order: 3
+    }
+}
+
+.block-resource-content .columns-social .social-media {
+    position: sticky;
+    padding-top: min(.375rem + 1.5 * ((100vw - 20rem) / 100), 1.875rem);
+    margin-top: clamp(-1.875rem, -.375rem + -1.5 * ((100vw - 20rem) / 100), -6px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: min(.3125rem + 1.25 * ((100vw - 20rem) / 100), 1.5625rem);
+    top: min(3.125rem + 6.25 * ((100vw - 20rem) / 100), 9.375rem)
+}
+
+@media(min-width:64rem) {
+    .block-resource-content .columns-social .social-media {
+        flex-direction: column
+    }
+}
+
+.block-resource-content .columns-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: min(1.5625rem + 3.125 * ((100vw - 20rem) / 100), 4.6875rem);
+    order: 2
+}
+
+.block-resource-content .columns-content.content-classic p {
+    margin-bottom: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-resource-content .columns-content.content-classic h1,
+.block-resource-content .columns-content.content-classic h2,
+.block-resource-content .columns-content.content-classic h3,
+.block-resource-content .columns-content.content-classic h4,
+.block-resource-content .columns-content.content-classic h5,
+.block-resource-content .columns-content.content-classic h6 {
+    margin-top: min(3.125rem + 3.125 * ((100vw - 20rem) / 100), 6.25rem);
+    margin-bottom: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-resource-content .columns-content.content-classic img {
+    max-width: 100%
+}
+
+.block-resource-content .columns-content.content-classic ul {
+    list-style-type: disc;
+    margin-top: 0;
+    margin-bottom: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-resource-content .columns-content.content-classic ol {
+    list-style-type: decimal;
+    margin-top: 0;
+    margin-bottom: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-resource-content .columns-content.content-classic h1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.block-resource-content .columns-content.content-classic h2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.block-resource-content .columns-content.content-classic h3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.block-resource-content .columns-content.content-classic h4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.block-resource-content .columns-content.content-classic h5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.block-resource-content .columns-content.content-classic h6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.block-resource-content .columns-content .partial {
+    width: 100%
+}
+
+.block-resource-content .columns-content .partial-anchor {
+    height: 0;
+    scroll-margin-top: min(3.125rem + 6.25 * ((100vw - 20rem) / 100), 9.375rem)
+}
+
+.block-resource-content .columns-content .partial-anchor+.partial {
+    margin-top: clamp(-4.6875rem, -1.5625rem + -3.125 * ((100vw - 20rem) / 100), -1.5625rem)
+}
+
+.block-resource-content .columns-content .partial-table {
+    width: 100%
+}
+
+.block-resource-content .columns-content .partial-heading {
+    padding-top: min(1.5625rem + 3.125 * ((100vw - 20rem) / 100), 4.6875rem)
+}
+
+.block-resource-content .columns-content .partial-buttons-group {
+    padding-bottom: min(1.5625rem + 3.125 * ((100vw - 20rem) / 100), 4.6875rem)
+}
+
+.block-resource-content .columns-content p {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%;
+    margin: 0
+}
+
+.block-resource-content .columns-content .no {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.block-resource-content .columns-index {
+    order: 1;
+    display: none
+}
+
+@media(min-width:75rem) {
+    .block-resource-content .columns-index {
+        display: block
+    }
+}
+
+.block-resource-content .columns-index .anchors {
+    margin: 0;
+    list-style-type: none;
+    position: sticky;
+    padding-top: min(.375rem + 1.5 * ((100vw - 20rem) / 100), 1.875rem);
+    margin-top: clamp(-1.875rem, -.375rem + -1.5 * ((100vw - 20rem) / 100), -6px);
+    top: min(3.125rem + 6.25 * ((100vw - 20rem) / 100), 9.375rem)
+}
+
+.block-resource-content .columns-index .anchor {
+    display: grid;
+    gap: min(1.25rem + 1.25 * ((100vw - 75rem) / 45), 2.5rem);
+    font-weight: 400;
+    opacity: .1;
+    transition: .5s;
+    font-size: min(.75rem + .5 * ((100vw - 75rem) / 45), 1.25rem);
+    line-height: 120%
+}
+
+@media(min-width:75rem) {
+    .block-resource-content .columns-index .anchor {
+        grid-template-columns: min(1.25rem + 2.5 * ((100vw - 75rem) / 45), 3.75rem) minmax(0, 1fr)
+    }
+}
+
+.block-resource-content .columns-index .anchor:not(:last-child) {
+    margin-bottom: min(1.25rem + 3.75 * ((100vw - 75rem) / 45), 5rem)
+}
+
+.block-resource-content .columns-index .anchor.focus,
+.block-resource-content .columns-index .anchor:hover {
+    font-weight: 700;
+    color: #393e46;
+    opacity: 1 !important
+}
+
+.block-resource-content .columns-index .anchor.focus::before {
+    background-color: #ff9a62
+}
+
+.block-resource-content .columns-index .anchor.focus~.anchor {
+    opacity: .5
+}
+
+.block-resource-content .columns-index .anchor.focus~.anchor~.anchor {
+    opacity: .3
+}
+
+.block-resource-content .columns-index .anchor::before {
+    transition: .5s;
+    background-color: #393e46;
+    content: "";
+    display: block;
+    width: min(1.25rem + 2.5 * ((100vw - 75rem) / 45), 3.75rem);
+    height: 1px;
+    align-self: flex-start;
+    top: min(.25rem + .5 * ((100vw - 64rem) / 56), .75rem);
+    position: relative
+}
+
+.block-resource-content .columns-index .anchor a {
+    display: block
+}

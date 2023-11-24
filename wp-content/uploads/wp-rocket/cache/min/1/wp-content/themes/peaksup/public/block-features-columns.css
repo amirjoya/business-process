@@ -1,0 +1,327 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-features-columns .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5625rem;
+    gap: .9375rem;
+    color: rgba(57, 62, 70, .4);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-features-columns .pagination div {
+    align-self: center
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-features-columns {
+    overflow: hidden
+}
+
+.block-features-columns .wrapper-container {
+    padding: min(1.25rem + 5 * ((100vw - 20rem) / 100), 6.25rem) min(.75rem + 6.75 * ((100vw - 20rem) / 100), 7.5rem)
+}
+
+.block-features-columns .wrapper-container.spacing-small {
+    padding: min(1.25rem + 1.875 * ((100vw - 20rem) / 100), 3.125rem) min(.75rem + 3.625 * ((100vw - 20rem) / 100), 4.375rem)
+}
+
+.block-features-columns .wrapper-container.spacing-medium {
+    padding: min(1.25rem + 5 * ((100vw - 20rem) / 100), 6.25rem) min(.75rem + 6.75 * ((100vw - 20rem) / 100), 7.5rem)
+}
+
+.block-features-columns .wrapper-container.spacing-large {
+    padding: min(1.25rem + 8.125 * ((100vw - 20rem) / 100), 9.375rem) min(.75rem + 9.875 * ((100vw - 20rem) / 100), 10.625rem)
+}
+
+.block-features-columns .wrapper-container.spacing-none {
+    padding: 0
+}
+
+.block-features-columns .header {
+    margin-bottom: min(1.875rem + 4.375 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-features-columns .header.multiple {
+    display: grid;
+    justify-content: space-between;
+    gap: min(1.875rem + 4.375 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+@media(min-width:64rem) {
+    .block-features-columns .header.multiple {
+        grid-template-columns: 55% 1fr;
+        flex-wrap: nowrap
+    }
+}
+
+.block-features-columns .features-container {
+    margin-bottom: clamp(.001px, 1.875rem + -1.8749375 * ((100vw - 20rem) / 100), 1.875rem)
+}
+
+@media(min-width:64rem) {
+    .block-features-columns .features {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: min(1.25rem + 3.125 * ((100vw - 20rem) / 100), 4.375rem)
+    }
+}
+
+.block-features-columns .feature:nth-child(4n+2) .title .heading .highlight {
+    color: #4cb078
+}
+
+.block-features-columns .feature:nth-child(4n+3) .title .heading .highlight {
+    color: #ff9a62
+}
+
+.block-features-columns .feature .title {
+    background-color: #f9f5eb;
+    display: flex;
+    gap: min(.625rem + .625 * ((100vw - 20rem) / 100), 1.25rem);
+    padding: min(.0000625rem + 1.5624375 * ((100vw - 20rem) / 100), 1.5625rem) clamp(1.5625rem, 2.1875rem + -.625 * ((100vw - 20rem) / 100), 2.1875rem);
+    margin-bottom: min(1.5625rem + 2.8125 * ((100vw - 20rem) / 100), 4.375rem);
+    border-radius: min(.9375rem + .9375 * ((100vw - 20rem) / 100), 1.875rem) 0
+}
+
+.block-features-columns .feature .title .heading {
+    align-self: center;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.block-features-columns .feature .title .heading .highlight {
+    color: #233e8b;
+    display: block
+}
+
+.block-features-columns .feature p {
+    margin-bottom: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.block-features-columns .feature ol,
+.block-features-columns .feature ul {
+    margin: 0
+}
+
+.block-features-columns .feature ol li,
+.block-features-columns .feature ul li {
+    margin-bottom: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem)
+}
+
+.block-features-columns .image {
+    max-width: 4.375rem
+}
+
+@media(min-width:64rem) {
+    .block-features-columns .pagination {
+        display: none
+    }
+}

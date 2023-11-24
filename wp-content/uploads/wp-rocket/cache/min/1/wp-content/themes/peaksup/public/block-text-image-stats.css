@@ -1,0 +1,512 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-text-image-stats .wrapper .stats-column .side-media .side-image,
+.block-text-image-stats .wrapper .stats-column .side-media .side-image img,
+.block-text-image-stats .wrapper .stats-column .side-media .side-video,
+.block-text-image-stats .wrapper .stats-column .side-media .side-video iframe,
+.block-text-image-stats .wrapper .stats-column .side-media .side-video video,
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-wrapper .slide-content .icon figure,
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-wrapper .slide-content .icon img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.block-text-image-stats .wrapper .stats-column .side-media .side-image,
+.block-text-image-stats .wrapper .stats-column .side-media .side-image img,
+.block-text-image-stats .wrapper .stats-column .side-media .side-video,
+.block-text-image-stats .wrapper .stats-column .side-media .side-video iframe,
+.block-text-image-stats .wrapper .stats-column .side-media .side-video video {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-wrapper .slide-content .icon figure,
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-wrapper .slide-content .icon img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-text-image-stats .wrapper-container {
+    padding-left: min(.375rem + 8.375 * ((100vw - 20rem) / 100), 8.75rem);
+    padding-right: min(.375rem + 8.375 * ((100vw - 20rem) / 100), 8.75rem)
+}
+
+.block-text-image-stats .wrapper-container.spacing-large {
+    padding-left: min(.375rem + 8.375 * ((100vw - 20rem) / 100), 8.75rem);
+    padding-right: min(.375rem + 8.375 * ((100vw - 20rem) / 100), 8.75rem)
+}
+
+.block-text-image-stats .wrapper-container.spacing-medium {
+    padding-left: min(.375rem + 5.875 * ((100vw - 20rem) / 100), 6.25rem);
+    padding-right: min(.375rem + 5.875 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-text-image-stats .wrapper-container.spacing-small {
+    padding-left: min(.375rem + 2.75 * ((100vw - 20rem) / 100), 3.125rem);
+    padding-right: min(.375rem + 2.75 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-text-image-stats .wrapper-container.spacing-none {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.block-text-image-stats .wrapper {
+    display: grid;
+    gap: min(1.5625rem + 6.5625 * ((100vw - 20rem) / 100), 8.125rem);
+    padding-top: min(2.5rem + 12.5 * ((100vw - 20rem) / 100), 15rem);
+    padding-bottom: min(.9375rem + 5.3125 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-text-image-stats .wrapper.spacing-small {
+    padding-top: min(2.5rem + 1.25 * ((100vw - 20rem) / 100), 3.75rem);
+    padding-bottom: min(.9375rem + 1.5625 * ((100vw - 20rem) / 100), 2.5rem)
+}
+
+.block-text-image-stats .wrapper.spacing-medium {
+    padding-top: min(2.5rem + 5 * ((100vw - 20rem) / 100), 7.5rem);
+    padding-bottom: min(.9375rem + 4.0625 * ((100vw - 20rem) / 100), 5rem)
+}
+
+.block-text-image-stats .wrapper.spacing-large {
+    padding-top: min(2.5rem + 12.5 * ((100vw - 20rem) / 100), 15rem);
+    padding-bottom: min(.9375rem + 5.3125 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-text-image-stats .wrapper.spacing-none {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+@media(min-width:64rem) {
+    .block-text-image-stats .wrapper {
+        grid-template-columns: min(31.25rem + 12.5 * ((100vw - 64rem) / 56), 43.75rem) 1fr
+    }
+}
+
+@media(min-width:64rem) {
+    .block-text-image-stats .wrapper.image-right {
+        grid-template-columns: 1fr min(31.25rem + 12.5 * ((100vw - 64rem) / 56), 43.75rem)
+    }
+}
+
+.block-text-image-stats .wrapper.image-right .stats-column {
+    order: 1
+}
+
+@media(min-width:64rem) {
+    .block-text-image-stats .wrapper.image-right .stats-column {
+        order: 2
+    }
+}
+
+.block-text-image-stats .wrapper.image-right .text-column {
+    order: 2
+}
+
+@media(min-width:64rem) {
+    .block-text-image-stats .wrapper.image-right .text-column {
+        order: 1
+    }
+}
+
+.block-text-image-stats .wrapper .stats-column {
+    position: relative;
+    order: 1;
+    z-index: 1
+}
+
+.block-text-image-stats .wrapper .stats-column .stats {
+    background-color: #233e8b;
+    color: #fff;
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    width: min(12.5rem + 17.1875 * ((100vw - 20rem) / 100), 29.6875rem);
+    height: min(5.3125rem + 7.1875 * ((100vw - 20rem) / 100), 12.5rem);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border-top-right-radius: min(1.875rem + 3.125 * ((100vw - 20rem) / 100), 5rem);
+    bottom: min(1rem + 4.3125 * ((100vw - 20rem) / 100), 5.3125rem);
+    left: clamp(-10.625rem, -1rem + -9.625 * ((100vw - 20rem) / 100), -1rem)
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider {
+    position: relative;
+    height: 100%
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider {
+    height: 100%
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-wrapper {
+    width: calc(100% - min(1.25rem + 3.75 * ((100vw - 20rem)/ 100), 5rem) - min(.25rem + .25 * ((100vw - 20rem)/ 100), .5rem));
+    left: calc(min(1.25rem + 3.75 * ((100vw - 20rem)/ 100), 5rem) + min(.25rem + .25 * ((100vw - 20rem)/ 100), .5rem))
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-wrapper .slide-content {
+    display: flex;
+    gap: min(.9375rem + .9375 * ((100vw - 20rem) / 100), 1.875rem);
+    padding: min(.625rem + 1.875 * ((100vw - 20rem) / 100), 2.5rem) min(.625rem + 1.875 * ((100vw - 20rem) / 100), 2.5rem) min(.625rem + 1.875 * ((100vw - 20rem) / 100), 2.5rem) 0;
+    height: 100%
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-wrapper .slide-content .icon {
+    align-self: center;
+    position: relative;
+    aspect-ratio: 1/1;
+    height: min(2.8125rem + 4.375 * ((100vw - 20rem) / 100), 7.1875rem)
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-wrapper .slide-content .content {
+    align-self: center
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-wrapper .slide-content .content .title {
+    display: block;
+    margin-bottom: min(.1875rem + .125 * ((100vw - 20rem) / 100), 5px);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%;
+    font-weight: 800;
+    font-size: min(1.125rem + 1.5 * ((100vw - 20rem) / 100), 2.625rem)
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-wrapper .slide-content .content .text {
+    display: block;
+    opacity: .5;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem);
+    font-size: min(.75rem + .375 * ((100vw - 20rem) / 100), 1.125rem);
+    line-height: 110%
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-pagination {
+    position: absolute;
+    left: min(.625rem + 1.875 * ((100vw - 20rem) / 100), 2.5rem);
+    height: auto !important;
+    top: 50%;
+    width: min(.25rem + .25 * ((100vw - 20rem) / 100), .5rem);
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: min(.375rem + .3125 * ((100vw - 20rem) / 100), .6875rem)
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-pagination .swiper-pagination-bullet {
+    background: rgba(255, 255, 255, .35);
+    margin: 0 !important;
+    top: 0 !important;
+    opacity: 1;
+    transform: none;
+    width: min(.25rem + .25 * ((100vw - 20rem) / 100), .5rem);
+    height: min(.25rem + .25 * ((100vw - 20rem) / 100), .5rem)
+}
+
+.block-text-image-stats .wrapper .stats-column .stats .component-slider .slider .swiper-pagination .swiper-pagination-bullet-active {
+    background: #ffffc7
+}
+
+.block-text-image-stats .wrapper .stats-column .side-media {
+    position: relative;
+    aspect-ratio: 1/1;
+    width: calc(100% - min(1rem + 4.3125 * ((100vw - 20rem)/ 100), 5.3125rem));
+    margin-top: min(1rem + 4.3125 * ((100vw - 20rem) / 100), 5.3125rem);
+    margin-left: min(1rem + 4.3125 * ((100vw - 20rem) / 100), 5.3125rem);
+    z-index: 2
+}
+
+@media(min-width:48rem) {
+    .block-text-image-stats .wrapper .stats-column .side-media {
+        aspect-ratio: 1/1.2
+    }
+}
+
+.block-text-image-stats .wrapper .stats-column .side-media::before {
+    content: "";
+    background-color: #a9f1df;
+    border-bottom-right-radius: min(5rem + 11.25 * ((100vw - 20rem) / 100), 16.25rem);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: clamp(-5.3125rem, -1rem + -4.3125 * ((100vw - 20rem) / 100), -1rem);
+    top: clamp(-5.3125rem, -1rem + -4.3125 * ((100vw - 20rem) / 100), -1rem);
+    z-index: 0
+}
+
+.block-text-image-stats .wrapper .stats-column .side-media .btn-close,
+.block-text-image-stats .wrapper .stats-column .side-media .btn-play {
+    position: absolute;
+    top: min(1.25rem + 1.875 * ((100vw - 20rem) / 100), 3.125rem);
+    right: min(1.25rem + 1.875 * ((100vw - 20rem) / 100), 3.125rem);
+    transition: 250ms opacity;
+    z-index: 2
+}
+
+.block-text-image-stats .wrapper .stats-column .side-media .btn-close,
+.block-text-image-stats .wrapper .stats-column .side-media .video {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: 250ms opacity
+}
+
+.block-text-image-stats .wrapper .stats-column .side-media .side-image,
+.block-text-image-stats .wrapper .stats-column .side-media .side-image img,
+.block-text-image-stats .wrapper .stats-column .side-media .side-video,
+.block-text-image-stats .wrapper .stats-column .side-media .side-video iframe,
+.block-text-image-stats .wrapper .stats-column .side-media .side-video video {
+    background-color: #4cb078;
+    z-index: 1;
+    border-bottom-right-radius: min(5rem + 11.25 * ((100vw - 20rem) / 100), 16.25rem)
+}
+
+.block-text-image-stats .wrapper .stats-column.video-played .side-media {
+    z-index: 2
+}
+
+.block-text-image-stats .wrapper .stats-column.video-played .side-media .btn-close,
+.block-text-image-stats .wrapper .stats-column.video-played .side-media .side-video {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto
+}
+
+.block-text-image-stats .wrapper .stats-column.video-played .side-media .btn-play,
+.block-text-image-stats .wrapper .stats-column.video-played .side-media .side-image {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+.block-text-image-stats .wrapper .stats-column.video-played::before {
+    z-index: 0
+}
+
+.block-text-image-stats .wrapper .stats-column.video-played .stats {
+    z-index: 1
+}
+
+.block-text-image-stats .wrapper .text-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: min(1.25rem + 1.25 * ((100vw - 20rem) / 100), 2.5rem);
+    align-self: flex-start;
+    order: 2
+}
+
+.block-text-image-stats .wrapper .text-column p:not(:last-child) {
+    margin-bottom: min(.625rem + 1.5625 * ((100vw - 20rem) / 100), 2.1875rem)
+}

@@ -1,0 +1,650 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-accordion-text-image .tab-selector .select {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-accordion-text-image {
+    position: relative;
+    overflow: hidden;
+    background-color: #f9f5eb
+}
+
+.block-accordion-text-image .wrapper-container {
+    padding-bottom: min(3.125rem + 3.125 * ((100vw - 20rem) / 100), 6.25rem);
+    padding-top: min(3.125rem + 3.125 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-accordion-text-image .wrapper-container.spacing-small {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem
+}
+
+.block-accordion-text-image .wrapper-container.spacing-medium {
+    padding-top: min(3.125rem + 3.125 * ((100vw - 20rem) / 100), 6.25rem);
+    padding-bottom: min(3.125rem + 3.125 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-accordion-text-image .wrapper-container.spacing-large {
+    padding-top: min(3.125rem + 6.25 * ((100vw - 20rem) / 100), 9.375rem);
+    padding-bottom: min(3.125rem + 6.25 * ((100vw - 20rem) / 100), 9.375rem)
+}
+
+.block-accordion-text-image .wrapper-container.spacing-none {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.block-accordion-text-image .wrapper {
+    padding-left: min(.75rem + 4.25 * ((100vw - 20rem) / 100), 5rem);
+    padding-right: min(.75rem + 4.25 * ((100vw - 20rem) / 100), 5rem)
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .wrapper {
+        padding-right: min(.75rem + 4.25 * ((100vw - 20rem) / 100), 5rem)
+    }
+}
+
+.block-accordion-text-image .item {
+    position: relative;
+    display: grid
+}
+
+@media(min-width:64rem) {
+    .block-accordion-text-image .item {
+        grid-template-columns: 1fr min(21.875rem + 21.875 * ((100vw - 64rem) / 56), 43.75rem)
+    }
+}
+
+.block-accordion-text-image .item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    max-height: 0;
+    margin: auto;
+    opacity: 0;
+    border-radius: 0 1.875rem 1.875rem 1.875rem;
+    transition: max-height 250ms cubic-bezier(.5, 0, 0, 1), opacity 250ms cubic-bezier(.5, 0, 0, 1);
+    overflow: hidden;
+    background-color: #fff
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .item::before {
+        right: -25vw;
+        width: 125vw;
+        border-radius: 0
+    }
+}
+
+.block-accordion-text-image .item .item-toggler-icon svg {
+    width: min(1.875rem + 1.25 * ((100vw - 20rem) / 100), 3.125rem) !important;
+    max-height: min(1.875rem + 1.25 * ((100vw - 20rem) / 100), 3.125rem) !important
+}
+
+.block-accordion-text-image .item .item-toggler-icon.plus {
+    gap: min(.0000625rem + 1.5624375 * ((100vw - 20rem) / 100), 1.5625rem)
+}
+
+@media(max-width:63.9rem) {
+    .block-accordion-text-image .item .item-toggler-icon.plus {
+        aspect-ratio: 1/1;
+        border-radius: 12.5rem
+    }
+}
+
+.block-accordion-text-image .item .item-toggler-icon.plus .button-icon {
+    background-color: rgba(255, 255, 255, 0);
+    color: #000
+}
+
+.block-accordion-text-image .item .item-toggler-icon.minus {
+    display: none
+}
+
+@media(max-width:63.9rem) {
+    .block-accordion-text-image .item .item-toggler-icon.minus {
+        top: .75rem;
+        right: .75rem;
+        position: absolute
+    }
+}
+
+.block-accordion-text-image .item .toggler-subtext {
+    margin-top: min(.3125rem + .3125 * ((100vw - 20rem) / 100), .625rem);
+    font-weight: 100 !important;
+    font-size: .8em
+}
+
+.block-accordion-text-image .item.active {
+    margin-bottom: 1.25rem
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .item.active {
+        margin-bottom: 0
+    }
+}
+
+.block-accordion-text-image .item.active::before {
+    max-height: 187.5rem;
+    opacity: 1
+}
+
+.block-accordion-text-image .item.active .item-toggler-icon {
+    color: #fff
+}
+
+.block-accordion-text-image .item.active .item-toggler-icon .button-icon {
+    color: #fff
+}
+
+.block-accordion-text-image .item.active .item-toggler-icon.minus {
+    display: flex
+}
+
+.block-accordion-text-image .item.active .item-toggler-icon.plus {
+    display: none
+}
+
+.block-accordion-text-image .item.active .item-wrap {
+    padding-bottom: 1.875rem
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .item.active .item-wrap {
+        padding-bottom: 3.125rem
+    }
+}
+
+.block-accordion-text-image .item.active .item-header {
+    border-color: #9ca3af;
+    margin-bottom: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-accordion-text-image .item.active .item-toggler {
+    cursor: pointer
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .item.active .item-toggler {
+        padding-top: min(1.5625rem + 5.9375 * ((100vw - 48rem) / 72), 7.5rem);
+        top: min(1.5625rem + 5.9375 * ((100vw - 48rem) / 72), 7.5rem)
+    }
+}
+
+.block-accordion-text-image .item.active .item-content {
+    max-height: 187.5rem
+}
+
+.block-accordion-text-image .item.active .media {
+    max-height: 187.5rem
+}
+
+.block-accordion-text-image .item.active .media .img {
+    transform: translateY(0)
+}
+
+.block-accordion-text-image .item-toggler {
+    width: 100%;
+    padding: .9375rem 0 min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem) 0;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: padding 250ms cubic-bezier(.5, 0, 0, 1);
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    gap: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .item-toggler {
+        padding: min(1.5625rem + 3.125 * ((100vw - 48rem) / 72), 4.6875rem) 0 min(1.5625rem + 1.5625 * ((100vw - 48rem) / 72), 3.125rem)
+    }
+}
+
+.block-accordion-text-image .item-toggler .title {
+    align-self: center
+}
+
+.block-accordion-text-image .item-toggler .item-toggler-icon {
+    align-self: center
+}
+
+.block-accordion-text-image .item-header {
+    transition: all 250ms cubic-bezier(.5, 0, 0, 1);
+    border-bottom: 1px solid transparent
+}
+
+@media(min-width:64rem) {
+    .block-accordion-text-image .item-header {
+        margin-right: clamp(-43.75rem, -21.875rem + -21.875 * ((100vw - 64rem) / 56), -21.875rem)
+    }
+}
+
+.block-accordion-text-image .item-wrap {
+    z-index: 2;
+    transition: all 250ms cubic-bezier(.5, 0, 0, 1);
+    padding: 0 .75rem
+}
+
+.block-accordion-text-image .item-content {
+    height: auto !important;
+    max-height: 0;
+    transition: all 250ms cubic-bezier(.5, 0, 0, 1);
+    overflow: hidden
+}
+
+.block-accordion-text-image .media {
+    z-index: 1;
+    max-height: 0;
+    transition: all 250ms cubic-bezier(.5, 0, 0, 1);
+    overflow: hidden
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .media {
+        order: 2
+    }
+}
+
+.block-accordion-text-image .media .image {
+    position: relative
+}
+
+.block-accordion-text-image .media .image::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    padding-top: 50%
+}
+
+.block-accordion-text-image .media .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .media .image {
+        position: relative;
+        overflow: hidden;
+        border-radius: 0 1.875rem 1.875rem 1.875rem
+    }
+    .block-accordion-text-image .media .image::after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+        padding-top: 80%
+    }
+    .block-accordion-text-image .media .image img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover
+    }
+}
+
+.block-accordion-text-image .media .image.bottom .img {
+    -o-object-position: bottom;
+    object-position: bottom
+}
+
+.block-accordion-text-image .media .image.top .img {
+    -o-object-position: top;
+    object-position: top
+}
+
+.block-accordion-text-image .media .img {
+    transition: all 250ms cubic-bezier(.5, 0, 0, 1)
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .media .img {
+        transform: translateY(-100%)
+    }
+}
+
+.block-accordion-text-image .heading-wrapper {
+    margin-bottom: 3.125rem;
+    text-align: center
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .heading-wrapper {
+        display: grid;
+        margin-bottom: min(3.125rem + 3.125 * ((100vw - 20rem) / 100), 6.25rem);
+        text-align: left;
+        grid-template-columns: min(25rem + 40.625 * ((100vw - 48rem) / 72), 65.625rem) 1fr;
+        gap: min(3.125rem + 14.375 * ((100vw - 48rem) / 72), 17.5rem);
+        align-items: center
+    }
+}
+
+.block-accordion-text-image .heading-wrapper .heading {
+    margin: 0
+}
+
+.block-accordion-text-image .heading-wrapper .tablist-wrapper {
+    margin: 0
+}
+
+.block-accordion-text-image .heading-wrapper .tablist-wrapper .tablist {
+    display: none
+}
+
+.block-accordion-text-image .tab-selector {
+    position: relative;
+    display: flex;
+    color: #4cb078;
+    justify-content: flex-end;
+    margin-top: 1.875rem
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .tab-selector {
+        margin-top: 0
+    }
+}
+
+.block-accordion-text-image .tab-selector .inner {
+    position: relative;
+    width: 100%
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .tab-selector .inner {
+        width: auto
+    }
+}
+
+.block-accordion-text-image .tab-selector .select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    z-index: 1;
+    opacity: 1;
+    border: 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    right: 0;
+    left: unset
+}
+
+.block-accordion-text-image .tab-selector .select:active {
+    background-color: #233e8b;
+    color: #fff
+}
+
+.block-accordion-text-image .tab-selector svg {
+    height: 1rem;
+    width: 1.3125rem;
+    margin: auto;
+    transform: rotate(-90deg);
+    margin-left: 5px
+}
+
+.block-accordion-text-image .tab-selector .button {
+    width: 100%;
+    pointer-events: none;
+    background-color: #f9f5eb;
+    position: relative;
+    padding-right: 1.875rem;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1.3125rem;
+    z-index: 2
+}
+
+@media(min-width:48rem) {
+    .block-accordion-text-image .tab-selector .button {
+        width: auto
+    }
+}
+
+.block-accordion-text-image .tab-selector .button-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px
+}
+
+.block-accordion-text-image .panel {
+    max-height: 0;
+    opacity: 0;
+    transition: all .5s cubic-bezier(.5, 0, 0, 1);
+    visibility: hidden
+}
+
+.block-accordion-text-image .panel.active {
+    max-height: 187.5rem;
+    opacity: 1;
+    visibility: visible
+}
+
+.block-accordion-text-image .button-text {
+    display: none;
+    font-weight: 300 !important
+}
+
+@media(min-width:64rem) {
+    .block-accordion-text-image .button-text {
+        display: block
+    }
+}

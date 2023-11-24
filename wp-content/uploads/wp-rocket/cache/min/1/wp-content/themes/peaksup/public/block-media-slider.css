@@ -1,0 +1,463 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-media-slider .media-column .side-image-video .image,
+.block-media-slider .media-column .side-image-video .image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.block-media-slider .media-column .side-image-video .image,
+.block-media-slider .media-column .side-image-video .image img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center
+}
+
+.block-media-slider .pagination-mobile,
+.block-media-slider .text-column .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5625rem;
+    gap: .9375rem;
+    color: rgba(57, 62, 70, .4);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-media-slider .pagination-mobile div,
+.block-media-slider .text-column .pagination div {
+    align-self: center
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-media-slider {
+    overflow: hidden
+}
+
+.block-media-slider .wrapper-container {
+    padding: min(2.5rem + 12.5 * ((100vw - 20rem) / 100), 15rem) min(1.875rem + 13.125 * ((100vw - 20rem) / 100), 15rem) min(2.5rem + 6.875 * ((100vw - 20rem) / 100), 9.375rem) min(.9375rem + 8.4375 * ((100vw - 20rem) / 100), 9.375rem)
+}
+
+.block-media-slider .wrapper-container.spacing-small {
+    padding: min(2.5rem + 6.25 * ((100vw - 20rem) / 100), 8.75rem) min(1.875rem + 6.875 * ((100vw - 20rem) / 100), 8.75rem) min(2.5rem + .625 * ((100vw - 20rem) / 100), 3.125rem) min(.9375rem + 2.1875 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-media-slider .wrapper-container.spacing-medium {
+    padding: min(2.5rem + 9.375 * ((100vw - 20rem) / 100), 11.875rem) min(1.875rem + 10 * ((100vw - 20rem) / 100), 11.875rem) min(2.5rem + 3.75 * ((100vw - 20rem) / 100), 6.25rem) min(.9375rem + 5.3125 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-media-slider .wrapper-container.spacing-large {
+    padding: min(2.5rem + 12.5 * ((100vw - 20rem) / 100), 15rem) min(1.875rem + 13.125 * ((100vw - 20rem) / 100), 15rem) min(2.5rem + 6.875 * ((100vw - 20rem) / 100), 9.375rem) min(.9375rem + 8.4375 * ((100vw - 20rem) / 100), 9.375rem)
+}
+
+.block-media-slider .wrapper-container.spacing-none {
+    padding: 0
+}
+
+.block-media-slider .wrapper .slide-content .grid {
+    display: grid;
+    gap: min(1.5625rem + 6.5625 * ((100vw - 20rem) / 100), 8.125rem)
+}
+
+@media(min-width:64rem) {
+    .block-media-slider .wrapper .slide-content .grid {
+        grid-template-columns: .95fr 1.05fr
+    }
+}
+
+@media(min-width:64rem) {
+    .block-media-slider .wrapper .slide-content .grid.position-right {
+        grid-template-columns: 1.05fr .95fr
+    }
+}
+
+.block-media-slider .wrapper .slide-content .grid.position-right .media-column {
+    order: 1
+}
+
+@media(min-width:64rem) {
+    .block-media-slider .wrapper .slide-content .grid.position-right .media-column {
+        order: 2
+    }
+}
+
+.block-media-slider .wrapper .slide-content .grid.position-right .text-column {
+    order: 2
+}
+
+@media(min-width:64rem) {
+    .block-media-slider .wrapper .slide-content .grid.position-right .text-column {
+        order: 1
+    }
+}
+
+.block-media-slider .media-column {
+    position: relative;
+    height: min(15.625rem + 37.1875 * ((100vw - 20rem) / 100), 52.8125rem);
+    padding-left: clamp(.001px, .9375rem + -.9374375 * ((100vw - 20rem) / 100), .9375rem);
+    align-self: center;
+    order: 1;
+    transition: .5s
+}
+
+.block-media-slider .media-column.video-played .side-image-video .media-buttons .play-button {
+    display: none
+}
+
+.block-media-slider .media-column.video-played .side-image-video .media-buttons .stop-button {
+    display: block
+}
+
+.block-media-slider .media-column.video-played .side-image-video .cover-image {
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s
+}
+
+.block-media-slider .media-column.video-played .side-image-video .video-embed {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s
+}
+
+.block-media-slider .media-column .side-image-video {
+    position: relative;
+    height: min(15.625rem + 16.5625 * ((100vw - 20rem) / 100), 32.1875rem);
+    transition: .5s
+}
+
+.block-media-slider .media-column .side-image-video::before {
+    content: "";
+    background-color: #a9f1df;
+    border-bottom-right-radius: min(5rem + 11.25 * ((100vw - 20rem) / 100), 16.25rem);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: clamp(-3.125rem, -1rem + -2.125 * ((100vw - 20rem) / 100), -1rem);
+    top: clamp(-3.125rem, -1rem + -2.125 * ((100vw - 20rem) / 100), -1rem);
+    transition: .5s
+}
+
+.block-media-slider .media-column .side-image-video .media-buttons {
+    position: absolute;
+    bottom: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem);
+    left: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem);
+    z-index: 3
+}
+
+.block-media-slider .media-column .side-image-video .media-buttons .play-button {
+    display: block
+}
+
+.block-media-slider .media-column .side-image-video .media-buttons .stop-button {
+    display: none
+}
+
+.block-media-slider .media-column .side-image-video .video-embed,
+.block-media-slider .media-column .side-image-video .video-embed iframe,
+.block-media-slider .media-column .side-image-video .video-embed video {
+    background-color: #4cb078;
+    border-bottom-right-radius: min(5rem + 11.25 * ((100vw - 20rem) / 100), 16.25rem);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    opacity: 1;
+    z-index: 0
+}
+
+.block-media-slider .media-column .side-image-video .image,
+.block-media-slider .media-column .side-image-video .image img {
+    border-bottom-right-radius: min(5rem + 11.25 * ((100vw - 20rem) / 100), 16.25rem);
+    z-index: 1
+}
+
+.block-media-slider .text-column {
+    align-self: center;
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: min(1.25rem + 1.25 * ((100vw - 20rem) / 100), 2.5rem)
+}
+
+.block-media-slider .text-column h3 {
+    margin-bottom: min(1.25rem + 3.75 * ((100vw - 20rem) / 100), 5rem);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.block-media-slider .text-column p {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.block-media-slider .text-column p:not(:last-child) {
+    margin-bottom: min(.625rem + 1.5625 * ((100vw - 20rem) / 100), 2.1875rem)
+}
+
+.block-media-slider .text-column p strong {
+    color: #4cb078;
+    font-weight: 700
+}
+
+.block-media-slider .text-column .pagination {
+    display: none;
+    gap: .5rem;
+    justify-content: flex-end;
+    margin-top: min(1.5625rem + 3.4375 * ((100vw - 20rem) / 100), 5rem)
+}
+
+@media(min-width:64rem) {
+    .block-media-slider .text-column .pagination {
+        display: flex
+    }
+}
+
+@media(min-width:64rem) {
+    .block-media-slider .pagination-mobile {
+        display: none
+    }
+}
+
+.block-media-slider .swiper-slide {
+    height: auto;
+    transition: .5s
+}
+
+.block-media-slider .swiper-slide-prev {
+    transition: 250ms;
+    opacity: 0
+}
+
+.block-media-slider .swiper-slide-next {
+    transition: 250ms
+}
+
+.block-media-slider .swiper-slide-next .text-column {
+    opacity: 0
+}
+
+.block-media-slider .swiper-slide-active .media-column .side-image-video {
+    height: min(15.625rem + 37.1875 * ((100vw - 20rem) / 100), 52.8125rem)
+}
+
+.block-media-slider .swiper-slide-active .media-column .side-image-video::before {
+    background-color: #233e8b;
+    left: clamp(-5.3125rem, -1rem + -4.3125 * ((100vw - 20rem) / 100), -1rem);
+    top: clamp(-5.625rem, -1rem + -4.625 * ((100vw - 20rem) / 100), -1rem)
+}

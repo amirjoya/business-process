@@ -1,0 +1,507 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-cards-text .wrapper .cards .card .slide-content .content .controls .icon-wrapper .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.block-cards-text .wrapper .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5625rem;
+    gap: .9375rem;
+    color: rgba(57, 62, 70, .4);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-cards-text .wrapper .pagination div {
+    align-self: center
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-cards-text {
+    position: relative
+}
+
+.block-cards-text .wrapper-container {
+    overflow: hidden;
+    padding-bottom: min(.9375rem + 5.3125 * ((100vw - 20rem) / 100), 6.25rem);
+    padding-top: min(.9375rem + 5.3125 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-cards-text .wrapper-container.spacing-small {
+    padding-top: min(.9375rem + 2.1875 * ((100vw - 20rem) / 100), 3.125rem);
+    padding-bottom: min(.9375rem + 2.1875 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-cards-text .wrapper-container.spacing-medium {
+    padding-top: min(.9375rem + 5.3125 * ((100vw - 20rem) / 100), 6.25rem);
+    padding-bottom: min(.9375rem + 5.3125 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-cards-text .wrapper-container.spacing-large {
+    padding-top: min(.9375rem + 8.4375 * ((100vw - 20rem) / 100), 9.375rem);
+    padding-bottom: min(.9375rem + 8.4375 * ((100vw - 20rem) / 100), 9.375rem)
+}
+
+.block-cards-text .wrapper-container.spacing-none {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.block-cards-text:has(>.decoration)::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-top: 1px solid #4cb078;
+    border-left: 1px solid #4cb078;
+    width: min(7.8125rem + 22.1875 * ((100vw - 20rem) / 100), 30rem);
+    height: min(11.25rem + 21.875 * ((100vw - 20rem) / 100), 33.125rem);
+    border-top-left-radius: min(6.25rem + 9.375 * ((100vw - 20rem) / 100), 15.625rem);
+    right: 0;
+    top: clamp(-6.25rem, -3.125rem + -3.125 * ((100vw - 20rem) / 100), -3.125rem);
+    z-index: 1;
+    pointer-events: none
+}
+
+@media(min-width:64rem) {
+    .block-cards-text:has(>.decoration)::before {
+        border-top: 1px solid rgba(57, 62, 70, .15);
+        border-left: 1px solid rgba(57, 62, 70, .15)
+    }
+}
+
+.block-cards-text .wrapper {
+    position: relative;
+    z-index: 2
+}
+
+.block-cards-text .wrapper.spacing-small {
+    padding-top: min(.9375rem + .625 * ((100vw - 20rem) / 100), 1.5625rem);
+    padding-bottom: min(.9375rem + .625 * ((100vw - 20rem) / 100), 1.5625rem)
+}
+
+.block-cards-text .wrapper.spacing-medium {
+    padding-top: min(.9375rem + 2.1875 * ((100vw - 20rem) / 100), 3.125rem);
+    padding-bottom: min(.9375rem + 2.1875 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-cards-text .wrapper.spacing-large {
+    padding-top: min(.9375rem + 5.3125 * ((100vw - 20rem) / 100), 6.25rem);
+    padding-bottom: min(.9375rem + 5.3125 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-cards-text .wrapper.spacing-none {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.block-cards-text .wrapper h3 {
+    margin-bottom: min(1.25rem + 3.75 * ((100vw - 20rem) / 100), 5rem);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.block-cards-text .wrapper .cards-container {
+    width: 93%;
+    margin-bottom: clamp(.001px, 1.25rem + -1.2499375 * ((100vw - 20rem) / 100), 1.25rem)
+}
+
+@media(min-width:64rem) {
+    .block-cards-text .wrapper .cards-container {
+        width: 100%
+    }
+}
+
+.block-cards-text .wrapper .cards-slider {
+    margin: clamp(-.625rem, -.3125rem + -.3125 * ((100vw - 20rem) / 100), -5px)
+}
+
+@media(min-width:64rem) {
+    .block-cards-text .wrapper .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+}
+
+.block-cards-text .wrapper .cards.col-3 h4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.block-cards-text .wrapper .cards.col-3 .card .icon-wrapper {
+    transform: translateX(min(1.875rem + 1.25 * ((100vw - 20rem) / 100), 3.125rem))
+}
+
+@media(min-width:64rem) {
+    .block-cards-text .wrapper .cards.col-3 .card {
+        width: 33.333%
+    }
+    .block-cards-text .wrapper .cards.col-3 .card.active {
+        width: 40%
+    }
+    .block-cards-text .wrapper .cards.col-3 .card.smaller {
+        width: 30%
+    }
+}
+
+.block-cards-text .wrapper .cards.col-4 h4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.block-cards-text .wrapper .cards.col-4 .card .icon-wrapper {
+    transform: translateX(min(1.875rem + 1.25 * ((100vw - 20rem) / 100), 3.125rem))
+}
+
+@media(min-width:64rem) {
+    .block-cards-text .wrapper .cards.col-4 .card {
+        width: 25%
+    }
+    .block-cards-text .wrapper .cards.col-4 .card.active {
+        width: 31%
+    }
+    .block-cards-text .wrapper .cards.col-4 .card.smaller {
+        width: 23%
+    }
+}
+
+.block-cards-text .wrapper .cards .card {
+    padding: min(.3125rem + .3125 * ((100vw - 20rem) / 100), .625rem);
+    height: auto
+}
+
+.block-cards-text .wrapper .cards .card .slide-content {
+    background-color: #f9f5eb;
+    position: relative;
+    border-radius: min(1.875rem + 2.5 * ((100vw - 20rem) / 100), 4.375rem);
+    padding: min(1.875rem + 2.5 * ((100vw - 20rem) / 100), 4.375rem) min(1.875rem + 1.25 * ((100vw - 20rem) / 100), 3.125rem) min(1.875rem + 1.25 * ((100vw - 20rem) / 100), 3.125rem) min(1.875rem + 1.25 * ((100vw - 20rem) / 100), 3.125rem);
+    overflow: hidden;
+    height: 100%
+}
+
+.block-cards-text .wrapper .cards .card .slide-content .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 100%
+}
+
+.block-cards-text .wrapper .cards .card .slide-content .content h4 {
+    position: relative;
+    z-index: 1;
+    margin-bottom: min(1.5625rem + .3125 * ((100vw - 20rem) / 100), 1.875rem);
+    min-height: min(.0000625rem + 5.6249375 * ((100vw - 20rem) / 100), 5.625rem)
+}
+
+.block-cards-text .wrapper .cards .card .slide-content .content .controls {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%
+}
+
+.block-cards-text .wrapper .cards .card .slide-content .content .controls .icon-wrapper {
+    background-color: #233e8b;
+    height: min(11.25rem + 15 * ((100vw - 20rem) / 100), 26.25rem);
+    width: min(8.75rem + 7.5 * ((100vw - 20rem) / 100), 16.25rem);
+    position: relative;
+    overflow: hidden;
+    border-radius: min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem) 0 0 min(1.25rem + 2.5 * ((100vw - 20rem) / 100), 3.75rem)
+}
+
+.block-cards-text .wrapper .cards .card .slide-content .content .controls .icon-wrapper .icon {
+    width: 100%
+}
+
+.block-cards-text .wrapper .cards .card .slide-content .content .controls .plus {
+    align-self: flex-end;
+    z-index: 4
+}
+
+.block-cards-text .wrapper .cards .card .slide-content .content .details {
+    background-color: #233e8b;
+    color: #fff;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+    transition: 250ms
+}
+
+.block-cards-text .wrapper .cards .card .slide-content .content .details h5 {
+    margin-bottom: min(.9375rem + 3.4375 * ((100vw - 20rem) / 100), 4.375rem);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.block-cards-text .wrapper .cards .card .slide-content .content .details p {
+    margin-bottom: min(2.5rem + 4.375 * ((100vw - 20rem) / 100), 6.875rem)
+}
+
+.block-cards-text .wrapper .cards .card .slide-content .content.has-content .controls {
+    justify-content: space-between
+}
+
+.block-cards-text .wrapper .cards .card.active .slide-content {
+    background-color: #233e8b
+}
+
+.block-cards-text .wrapper .cards .card.active .content {
+    background-color: #233e8b
+}
+
+.block-cards-text .wrapper .cards .card.active .content>h4 {
+    display: none
+}
+
+.block-cards-text .wrapper .cards .card.active .content .controls {
+    display: none
+}
+
+.block-cards-text .wrapper .cards .card.active .content .details {
+    display: flex;
+    opacity: 1;
+    width: 130%
+}
+
+.block-cards-text .wrapper .cards .card.active .content .details .controls {
+    display: flex
+}
+
+.block-cards-text .wrapper .cards .card.active .content .details .btn-card {
+    background-color: #233e8b
+}
+
+.block-cards-text .wrapper .pagination {
+    width: 93%
+}
+
+@media(min-width:64rem) {
+    .block-cards-text .wrapper .pagination {
+        display: none
+    }
+}

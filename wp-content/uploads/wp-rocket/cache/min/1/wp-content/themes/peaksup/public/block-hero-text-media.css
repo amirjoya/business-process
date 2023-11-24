@@ -1,0 +1,492 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image figure,
+.block-hero-text-media .wrapper .grid-column .grid-image iframe,
+.block-hero-text-media .wrapper .grid-column .grid-image img,
+.block-hero-text-media .wrapper .grid-column .grid-image video,
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar figure,
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image figure,
+.block-hero-text-media .wrapper .grid-column .grid-image iframe,
+.block-hero-text-media .wrapper .grid-column .grid-image img,
+.block-hero-text-media .wrapper .grid-column .grid-image video {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar figure,
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar svg,
+.block-hero-text-media .wrapper .grid-column::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-hero-text-media {
+    background-color: #f9f5eb
+}
+
+.block-hero-text-media .wrapper {
+    padding: 0 min(.375rem + 2.125 * ((100vw - 20rem) / 100), 2.5rem) min(1.25rem + 1.875 * ((100vw - 20rem) / 100), 3.125rem) min(.375rem + 8.375 * ((100vw - 20rem) / 100), 8.75rem);
+    display: grid;
+    gap: min(.9375rem + 4.6875 * ((100vw - 20rem) / 100), 5.625rem)
+}
+
+@media(min-width:48rem) {
+    .block-hero-text-media .wrapper {
+        grid-template-columns: .9fr 1.1fr
+    }
+}
+
+@media(min-width:90rem) {
+    .block-hero-text-media .wrapper {
+        height: calc(100vh - min(3.125rem + 6.25 * ((100vw - 20rem)/ 100), 9.375rem));
+        min-height: 56.25rem
+    }
+}
+
+.block-hero-text-media .wrapper .text-column {
+    align-self: center;
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: min(1.25rem + 1.25 * ((100vw - 20rem) / 100), 2.5rem)
+}
+
+@media(min-width:48rem) {
+    .block-hero-text-media .wrapper .text-column {
+        order: 1
+    }
+}
+
+.block-hero-text-media .wrapper .text-column p:not(:last-child) {
+    margin-bottom: min(.625rem + 1.5625 * ((100vw - 20rem) / 100), 2.1875rem)
+}
+
+.block-hero-text-media .wrapper .grid-column {
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    order: 1;
+    align-self: stretch;
+    height: 25rem
+}
+
+@media(min-width:48rem) {
+    .block-hero-text-media .wrapper .grid-column {
+        order: 2;
+        height: auto
+    }
+}
+
+.block-hero-text-media .wrapper .grid-column::before {
+    border: 1px solid #f9f5eb;
+    content: "";
+    display: block;
+    aspect-ratio: 1/1;
+    width: 70%;
+    z-index: 1;
+    border-radius: 62.5rem;
+    pointer-events: none
+}
+
+.block-hero-text-media .wrapper .grid-column .info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: min(1.25rem + 3.75 * ((100vw - 20rem) / 100), 5rem) 0 min(.0000625rem + 2.4999375 * ((100vw - 20rem) / 100), 2.5rem);
+    border-top-right-radius: min(3.75rem + 5.625 * ((100vw - 20rem) / 100), 9.375rem);
+    border-top: 1px solid #233e8b;
+    border-right: 1px solid #233e8b
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars {
+    display: flex;
+    margin-left: clamp(-.5rem, -.1875rem + -.3125 * ((100vw - 20rem) / 100), -3px);
+    margin-bottom: min(.9375rem + 4.0625 * ((100vw - 20rem) / 100), 5rem)
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar {
+    width: min(2.6875rem + 4.8125 * ((100vw - 20rem) / 100), 7.5rem);
+    height: min(2.6875rem + 4.8125 * ((100vw - 20rem) / 100), 7.5rem);
+    border: min(.1875rem + .3125 * ((100vw - 20rem) / 100), .5rem) solid #f9f5eb;
+    position: relative;
+    border-radius: 18.75rem;
+    overflow: hidden;
+    transition: .5s
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar figure,
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top center;
+    object-position: top center
+}
+
+@media(min-width:64rem) {
+    .block-hero-text-media .wrapper .grid-column .info .avatars .avatar figure,
+    .block-hero-text-media .wrapper .grid-column .info .avatars .avatar img {
+        -o-object-fit: content;
+        object-fit: content
+    }
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar svg {
+    color: #fff;
+    width: 30%
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar-1 {
+    background-color: #a9f1df;
+    z-index: 4
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar-1:hover {
+    background-color: #93edd7
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar-2 {
+    background-color: #ffffc7;
+    margin-left: clamp(-2.1875rem, -.5rem + -1.6875 * ((100vw - 20rem) / 100), -.5rem);
+    z-index: 3
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar-2:hover {
+    background-color: #ffffae
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar-3 {
+    background-color: #233e8b;
+    margin-left: clamp(-2.1875rem, -.5rem + -1.6875 * ((100vw - 20rem) / 100), -.5rem);
+    z-index: 2
+}
+
+.block-hero-text-media .wrapper .grid-column .info .avatars .avatar-3:hover {
+    background-color: #1e3577
+}
+
+.block-hero-text-media .wrapper .grid-column .info .text-decoration {
+    display: flex;
+    gap: min(.0000625rem + 4.9999375 * ((100vw - 20rem) / 100), 5rem)
+}
+
+.block-hero-text-media .wrapper .grid-column .info .text-decoration::after {
+    content: "";
+    background-color: #ff9a62;
+    display: block;
+    width: min(3.125rem + 5.625 * ((100vw - 20rem) / 100), 8.75rem);
+    height: min(3.75rem + 6.25 * ((100vw - 20rem) / 100), 10rem);
+    aspect-ratio: 1/1;
+    border-bottom-left-radius: 62.5rem
+}
+
+.block-hero-text-media .wrapper .grid-column .info .text-decoration .text {
+    min-width: min(6.5625rem + 12.1875 * ((100vw - 20rem) / 100), 18.75rem);
+    min-height: min(5.625rem + 1.875 * ((100vw - 20rem) / 100), 7.5rem)
+}
+
+@media(min-width:100rem) {
+    .block-hero-text-media .wrapper .grid-column .info .text-decoration .text {
+        min-width: min(13.75rem + 5 * ((100vw - 100rem) / 25), 18.75rem)
+    }
+}
+
+.block-hero-text-media .wrapper .grid-column .info .text-decoration span {
+    display: block;
+    font-size: min(.75rem + .5 * ((100vw - 20rem) / 100), 1.25rem);
+    line-height: 126%;
+    font-weight: 500;
+    margin-bottom: min(.125rem + 1.125 * ((100vw - 20rem) / 100), 1.25rem)
+}
+
+.block-hero-text-media .wrapper .grid-column .info .text-decoration span+span {
+    font-size: min(.625rem + .625 * ((100vw - 20rem) / 100), 1.25rem);
+    font-weight: 400;
+    margin-bottom: 0
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image {
+    overflow: hidden;
+    position: relative
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image .btn-close,
+.block-hero-text-media .wrapper .grid-column .grid-image .btn-play {
+    z-index: 2;
+    position: absolute;
+    top: min(.625rem + .625 * ((100vw - 20rem) / 100), 1.25rem);
+    right: min(.625rem + .625 * ((100vw - 20rem) / 100), 1.25rem)
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image .btn-close {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image .background-image {
+    z-index: 1
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image .video-embed {
+    z-index: 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image.video-played .btn-close {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image.video-played .btn-play {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image.video-played .background-image {
+    z-index: 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image.video-played .video-embed {
+    z-index: 1;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image-1 {
+    background-color: #233e8b;
+    border-bottom-right-radius: min(3.75rem + 5.625 * ((100vw - 20rem) / 100), 9.375rem)
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image-2 {
+    background-color: #4cb078;
+    border-bottom-left-radius: min(3.75rem + 5.625 * ((100vw - 20rem) / 100), 9.375rem)
+}
+
+.block-hero-text-media .wrapper .grid-column .grid-image-3 {
+    background-color: #233e8b;
+    border-top-left-radius: min(3.75rem + 5.625 * ((100vw - 20rem) / 100), 9.375rem)
+}

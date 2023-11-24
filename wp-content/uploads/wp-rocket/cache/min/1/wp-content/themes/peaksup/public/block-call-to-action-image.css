@@ -1,0 +1,405 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar figure,
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar figure,
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-call-to-action-image .wrapper-container {
+    padding: 3.75rem min(.375rem + 8.375 * ((100vw - 20rem) / 100), 8.75rem) 0
+}
+
+.block-call-to-action-image .wrapper-container.spacing-small {
+    padding: 3.125rem min(.375rem + 2.75 * ((100vw - 20rem) / 100), 3.125rem) 0
+}
+
+.block-call-to-action-image .wrapper-container.spacing-medium {
+    padding: min(3.125rem + 3.125 * ((100vw - 20rem) / 100), 6.25rem) min(.375rem + 5.875 * ((100vw - 20rem) / 100), 6.25rem) 0
+}
+
+.block-call-to-action-image .wrapper-container.spacing-large {
+    padding: min(3.125rem + 5.625 * ((100vw - 20rem) / 100), 8.75rem) min(.375rem + 8.375 * ((100vw - 20rem) / 100), 8.75rem) 0
+}
+
+.block-call-to-action-image .wrapper-container.spacing-none {
+    padding: 0
+}
+
+.block-call-to-action-image .wrapper {
+    position: relative
+}
+
+.block-call-to-action-image .wrapper .grid {
+    background-color: #f9f5eb;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: min(1.25rem + 5 * ((100vw - 20rem) / 100), 6.25rem) min(1.25rem + 5 * ((100vw - 20rem) / 100), 6.25rem) min(5rem + 1.25 * ((100vw - 20rem) / 100), 6.25rem) min(1.25rem + 5 * ((100vw - 20rem) / 100), 6.25rem);
+    border-bottom-right-radius: min(.0000625rem + 8.7499375 * ((100vw - 20rem) / 100), 8.75rem);
+    position: relative;
+    z-index: 2;
+    gap: min(1.25rem + 5.625 * ((100vw - 20rem) / 100), 6.875rem);
+    transform: translateY(min(.0000625rem + 6.2499375 * ((100vw - 20rem) / 100), 6.25rem))
+}
+
+@media(min-width:64rem) {
+    .block-call-to-action-image .wrapper .grid {
+        grid-template-columns: 1.15fr .85fr
+    }
+}
+
+@media(min-width:64rem) {
+    .block-call-to-action-image .wrapper .grid.position-left {
+        grid-template-columns: .85fr 1.15fr
+    }
+}
+
+.block-call-to-action-image .wrapper .grid.position-left .text-column {
+    order: 2
+}
+
+.block-call-to-action-image .wrapper .grid.position-left .image-column {
+    order: 1
+}
+
+.block-call-to-action-image .wrapper .grid .text-column {
+    align-self: center;
+    order: 2
+}
+
+@media(min-width:64rem) {
+    .block-call-to-action-image .wrapper .grid .text-column {
+        order: 1
+    }
+}
+
+.block-call-to-action-image .wrapper .grid .text-column h2 {
+    margin-bottom: min(.625rem + .9375 * ((100vw - 20rem) / 100), 1.5625rem);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.block-call-to-action-image .wrapper .grid .text-column p {
+    margin-bottom: min(.9375rem + 4.0625 * ((100vw - 20rem) / 100), 5rem);
+    padding-right: min(.0000625rem + 4.3749375 * ((100vw - 20rem) / 100), 4.375rem);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.block-call-to-action-image .wrapper .grid .image-column {
+    order: 1
+}
+
+@media(min-width:64rem) {
+    .block-call-to-action-image .wrapper .grid .image-column {
+        order: 2
+    }
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars {
+    position: relative;
+    margin-top: clamp(-9.375rem, -3.125rem + -6.25 * ((100vw - 20rem) / 100), -3.125rem)
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .side-image {
+    overflow: hidden
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .side-image img {
+    border-bottom-right-radius: min(4.0625rem + 1.25 * ((100vw - 20rem) / 100), 5.3125rem);
+    width: 100%
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars {
+    background-color: #1eae98;
+    padding: min(2.5rem + 2.5 * ((100vw - 20rem) / 100), 5rem) min(2.5rem + 2.5 * ((100vw - 20rem) / 100), 5rem) min(1.875rem + 3.125 * ((100vw - 20rem) / 100), 5rem) min(1.875rem + 3.125 * ((100vw - 20rem) / 100), 5rem);
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    border-top-right-radius: min(2.0625rem + 3.1875 * ((100vw - 20rem) / 100), 5.25rem)
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container {
+    display: flex;
+    padding-top: min(.625rem + .625 * ((100vw - 20rem) / 100), 1.25rem)
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar {
+    border-radius: 18.75rem;
+    overflow: hidden;
+    transition: .5s;
+    position: relative
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar figure,
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top center;
+    object-position: top center
+}
+
+@media(min-width:64rem) {
+    .block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar figure,
+    .block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar img {
+        -o-object-fit: content;
+        object-fit: content
+    }
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar svg {
+    width: 30%
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar-1 {
+    background-color: #ff9a62;
+    border: min(.1875rem + .3125 * ((100vw - 20rem) / 100), .5rem) solid #1eae98;
+    width: min(4.1875rem + 2.8125 * ((100vw - 20rem) / 100), 7rem);
+    height: min(4.1875rem + 2.8125 * ((100vw - 20rem) / 100), 7rem);
+    z-index: 2
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar-1:hover {
+    background-color: #ff8a49
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar-1 svg {
+    color: #fff
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar-2 {
+    background-color: #ffffc7;
+    width: min(3.125rem + 1.875 * ((100vw - 20rem) / 100), 5rem);
+    height: min(3.125rem + 1.875 * ((100vw - 20rem) / 100), 5rem);
+    margin: -1.25rem 0 0 -1.5625rem;
+    z-index: 1
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar-2:hover {
+    background-color: #ffffae
+}
+
+.block-call-to-action-image .wrapper .grid .image-column .image-avatars .avatars .container .avatar-2 svg {
+    color: #4cb078
+}

@@ -1,0 +1,372 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-hero-featured-posts .post-featured-image figure,
+.block-hero-featured-posts .post-featured-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.block-hero-featured-posts .post-featured-image figure,
+.block-hero-featured-posts .post-featured-image img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-hero-featured-posts {
+    background-color: #f9f5eb
+}
+
+@media(min-width:64rem) {
+    .block-hero-featured-posts .wrapper {
+        display: grid;
+        grid-template-columns: 1fr min(12.5rem + 25 * ((100vw - 48rem) / 72), 37.5rem)
+    }
+}
+
+.block-hero-featured-posts .pill {
+    display: inline-block;
+    padding: min(.25rem + .5 * ((100vw - 20rem) / 100), .75rem) min(.75rem + .1875 * ((100vw - 20rem) / 100), .9375rem);
+    font-size: min(.75rem + .5 * ((100vw - 20rem) / 100), 1.25rem);
+    border-radius: min(.625rem + .3125 * ((100vw - 20rem) / 100), .9375rem) 0 min(.625rem + .3125 * ((100vw - 20rem) / 100), .9375rem) min(.625rem + .3125 * ((100vw - 20rem) / 100), .9375rem);
+    background-color: #f3ebd9
+}
+
+.block-hero-featured-posts .post-featured {
+    border-bottom: 1px solid #d5d8dc
+}
+
+@media(min-width:48rem) {
+    .block-hero-featured-posts .post-featured {
+        display: grid;
+        grid-template-columns: min(18.75rem + 18.75 * ((100vw - 20rem) / 100), 37.5rem) 1fr;
+        padding-bottom: min(1.5625rem + 1.5625 * ((100vw - 48rem) / 72), 3.125rem)
+    }
+}
+
+@media(min-width:64rem) {
+    .block-hero-featured-posts .post-featured {
+        border-bottom: 0;
+        padding-bottom: 0;
+        border-right: 1px solid #d5d8dc
+    }
+}
+
+.block-hero-featured-posts .post-featured-image {
+    position: relative;
+    height: 20rem
+}
+
+@media(min-width:64rem) {
+    .block-hero-featured-posts .post-featured-image {
+        height: auto
+    }
+}
+
+.block-hero-featured-posts .post-featured-image figure,
+.block-hero-featured-posts .post-featured-image img {
+    overflow: hidden;
+    border-bottom-right-radius: min(3.75rem + 2.5 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+@media(min-width:64rem) {
+    .block-hero-featured-posts .post-featured-image figure,
+    .block-hero-featured-posts .post-featured-image img {
+        border-top-right-radius: min(3.75rem + 2.5 * ((100vw - 20rem) / 100), 6.25rem);
+        border-bottom-right-radius: 0
+    }
+}
+
+.block-hero-featured-posts .post-featured-content {
+    padding: 1.5625rem .75rem 3.125rem
+}
+
+@media(min-width:48rem) {
+    .block-hero-featured-posts .post-featured-content {
+        display: flex;
+        padding: min(1.25rem + 1.25 * ((100vw - 48rem) / 72), 2.5rem) min(1.25rem + 6.25 * ((100vw - 48rem) / 72), 7.5rem);
+        flex-direction: column;
+        justify-content: center
+    }
+}
+
+.block-hero-featured-posts .post-featured-content p {
+    margin-bottom: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-hero-featured-posts .post-featured-title {
+    font-weight: 500
+}
+
+.block-hero-featured-posts .sidebar {
+    padding: 2.8125rem .75rem
+}
+
+@media(min-width:48rem) {
+    .block-hero-featured-posts .sidebar {
+        padding: min(.9375rem + .9375 * ((100vw - 48rem) / 72), 1.875rem)
+    }
+}
+
+.block-hero-featured-posts .sidebar-title {
+    font-size: min(.75rem + .5 * ((100vw - 20rem) / 100), 1.25rem);
+    font-weight: 400;
+    color: #393e46;
+    margin-bottom: min(.625rem + .625 * ((100vw - 20rem) / 100), 1.25rem);
+    opacity: .5
+}
+
+@media(min-width:48rem) {
+    .block-hero-featured-posts .posts-wrap {
+        display: grid;
+        gap: 1.875rem;
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+@media(min-width:64rem) {
+    .block-hero-featured-posts .posts-wrap {
+        display: block
+    }
+}
+
+.block-hero-featured-posts .post .text {
+    font-size: min(.75rem + .25 * ((100vw - 20rem) / 100), 1rem)
+}
+
+.block-hero-featured-posts .post:not(:last-child) {
+    position: relative;
+    padding-bottom: min(.625rem + .625 * ((100vw - 20rem) / 100), 1.25rem);
+    margin-bottom: min(.625rem + .625 * ((100vw - 20rem) / 100), 1.25rem)
+}
+
+.block-hero-featured-posts .post:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #d5d8dc
+}
+
+@media(min-width:48rem) {
+    .block-hero-featured-posts .post:not(:last-child)::before {
+        right: -.875rem;
+        width: 1px;
+        height: 100%;
+        top: 0;
+        bottom: unset
+    }
+}
+
+@media(min-width:64rem) {
+    .block-hero-featured-posts .post:not(:last-child)::before {
+        width: 100%;
+        height: 1px;
+        top: unset;
+        left: 0;
+        bottom: 0
+    }
+}

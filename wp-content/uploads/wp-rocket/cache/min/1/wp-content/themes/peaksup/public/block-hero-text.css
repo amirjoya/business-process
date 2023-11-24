@@ -1,0 +1,312 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+body.transparent-header .block-hero-text .wrapper {
+    height: 100vh
+}
+
+.block-hero-text {
+    position: relative
+}
+
+@media(min-width:64rem) {
+    .block-hero-text {
+        background-color: #233e8b
+    }
+}
+
+.block-hero-text .background-image,
+.block-hero-text .background-image img {
+    position: relative;
+    -o-object-position: top center;
+    object-position: top center;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    z-index: 0
+}
+
+@media(min-width:64rem) {
+    .block-hero-text .background-image,
+    .block-hero-text .background-image img {
+        position: absolute;
+        height: 100%
+    }
+}
+
+.block-hero-text::before {
+    background-color: rgba(0, 0, 0, .2);
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none
+}
+
+@media(min-width:64rem) {
+    .block-hero-text::before {
+        display: block
+    }
+}
+
+.block-hero-text .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+    padding: min(2.5rem + 6.25 * ((100vw - 20rem) / 100), 8.75rem) min(.375rem + 8.375 * ((100vw - 20rem) / 100), 8.75rem)
+}
+
+.block-hero-text .wrapper.spacing-small {
+    padding: min(2.5rem + .625 * ((100vw - 20rem) / 100), 3.125rem) min(.375rem + 2.75 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-hero-text .wrapper.spacing-medium {
+    padding: min(2.5rem + 3.75 * ((100vw - 20rem) / 100), 6.25rem) min(.375rem + 5.875 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-hero-text .wrapper.spacing-large {
+    padding: min(2.5rem + 6.25 * ((100vw - 20rem) / 100), 8.75rem) min(.375rem + 8.375 * ((100vw - 20rem) / 100), 8.75rem)
+}
+
+.block-hero-text .wrapper.spacing-none {
+    padding: 0
+}
+
+@media(min-width:64rem) {
+    .block-hero-text .wrapper.position-right {
+        justify-content: flex-end;
+        text-align: right
+    }
+}
+
+@media(min-width:64rem) {
+    .block-hero-text .wrapper {
+        height: calc(100vh - min(3.125rem + 6.25 * ((100vw - 20rem)/ 100), 9.375rem));
+        min-height: min(31.25rem + 16.75 * ((100vw - 20rem) / 100), 48rem)
+    }
+}
+
+.block-hero-text .content {
+    align-self: flex-end;
+    width: 100%;
+    max-width: 45rem;
+    color: #000
+}
+
+@media(min-width:64rem) {
+    .block-hero-text .content {
+        color: #fff
+    }
+}
+
+.block-hero-text .heading {
+    margin-bottom: min(.75rem + 2.375 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-hero-text .heading span {
+    display: block
+}
+
+@media(min-width:64rem) {
+    .block-hero-text .heading span {
+        color: #fff
+    }
+}

@@ -1,0 +1,410 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-text-grid .wrapper .grid-column .grid-image .avatar-image figure,
+.block-text-grid .wrapper .grid-column .grid-image .avatar-image img,
+.block-text-grid .wrapper .grid-column .grid-image .fill img,
+.block-text-grid .wrapper .grid-column .grid-image figure.fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.block-text-grid .wrapper .grid-column .grid-image .avatar-image figure,
+.block-text-grid .wrapper .grid-column .grid-image .avatar-image img,
+.block-text-grid .wrapper .grid-column .grid-image .fill img,
+.block-text-grid .wrapper .grid-column .grid-image figure.fill {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center
+}
+
+.block-text-grid .wrapper .grid-column .grid-image .avatar,
+.block-text-grid .wrapper .grid-column .grid-image .avatar-image svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-text-grid {
+    background-color: #f9f5eb
+}
+
+.block-text-grid .wrapper-container {
+    padding: min(2.5rem + 13.125 * ((100vw - 20rem) / 100), 15.625rem) min(.375rem + 8.375 * ((100vw - 20rem) / 100), 8.75rem)
+}
+
+.block-text-grid .wrapper-container.spacing-small {
+    padding: min(2.5rem + 6.875 * ((100vw - 20rem) / 100), 9.375rem) min(.375rem + 5.875 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-text-grid .wrapper-container.spacing-medium {
+    padding: min(2.5rem + 6.875 * ((100vw - 20rem) / 100), 9.375rem) min(.375rem + 5.875 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-text-grid .wrapper-container.spacing-large {
+    padding: min(2.5rem + 13.125 * ((100vw - 20rem) / 100), 15.625rem) min(.375rem + 8.375 * ((100vw - 20rem) / 100), 8.75rem)
+}
+
+.block-text-grid .wrapper-container.spacing-none {
+    padding: 0
+}
+
+.block-text-grid .wrapper {
+    display: grid;
+    gap: min(2.5rem + 6.875 * ((100vw - 20rem) / 100), 9.375rem);
+    position: relative;
+    z-index: 1
+}
+
+@media(min-width:64rem) {
+    .block-text-grid .wrapper {
+        grid-template-columns: minmax(0, 1fr) min(25rem + 27.8125 * ((100vw - 64rem) / 56), 52.8125rem)
+    }
+}
+
+@media(min-width:64rem) {
+    .block-text-grid .wrapper.position-left {
+        grid-template-columns: min(25rem + 27.8125 * ((100vw - 64rem) / 56), 52.8125rem) minmax(0, 1fr)
+    }
+}
+
+.block-text-grid .wrapper.position-left .text-column {
+    order: 2
+}
+
+.block-text-grid .wrapper.position-left .grid-column {
+    order: 1
+}
+
+.block-text-grid .wrapper .text-column {
+    align-self: center;
+    order: 2
+}
+
+@media(min-width:64rem) {
+    .block-text-grid .wrapper .text-column {
+        order: 1
+    }
+}
+
+.block-text-grid .wrapper .text-column .pre-title {
+    display: flex;
+    gap: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem);
+    margin-bottom: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-text-grid .wrapper .text-column .pre-title .category {
+    align-self: center
+}
+
+.block-text-grid .wrapper .text-column .pre-title .logo {
+    align-self: center;
+    width: min(9.375rem + 12.5 * ((100vw - 20rem) / 100), 21.875rem)
+}
+
+.block-text-grid .wrapper .text-column .pre-title span {
+    display: block;
+    padding: min(.5rem + 1.0625 * ((100vw - 20rem) / 100), 1.5625rem) min(.8125rem + 2.3125 * ((100vw - 20rem) / 100), 3.125rem);
+    background-color: #ff9a62;
+    border-radius: min(.9375rem + .9375 * ((100vw - 20rem) / 100), 1.875rem) 0 min(.9375rem + .9375 * ((100vw - 20rem) / 100), 1.875rem) min(.9375rem + .9375 * ((100vw - 20rem) / 100), 1.875rem);
+    color: #f9f5eb;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-text-grid .wrapper .text-column .partial-heading {
+    margin-bottom: min(.625rem + 1.5625 * ((100vw - 20rem) / 100), 2.1875rem)
+}
+
+.block-text-grid .wrapper .text-column .partial-content {
+    margin-bottom: min(.9375rem + 4.0625 * ((100vw - 20rem) / 100), 5rem)
+}
+
+.block-text-grid .wrapper .grid-column {
+    display: grid;
+    position: relative;
+    overflow: hidden;
+    grid-template: "grid-1 grid-2" 1fr "grid-1 grid-3" 1fr/1.2fr .8fr;
+    order: 1;
+    height: min(18.125rem + 19.375 * ((100vw - 20rem) / 44), 37.5rem)
+}
+
+@media(min-width:64rem) {
+    .block-text-grid .wrapper .grid-column {
+        order: 2;
+        height: min(25rem + 21.875 * ((100vw - 64rem) / 56), 46.875rem)
+    }
+}
+
+.block-text-grid .wrapper .grid-column .grid-image {
+    background-color: #233e8b;
+    overflow: hidden;
+    display: flex;
+    position: relative
+}
+
+.block-text-grid .wrapper .grid-column .grid-image .avatar {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: absolute
+}
+
+.block-text-grid .wrapper .grid-column .grid-image .avatar-image {
+    background-color: #ffffc7;
+    width: min(3.75rem + 7.5 * ((100vw - 20rem) / 100), 11.25rem);
+    height: min(3.75rem + 7.5 * ((100vw - 20rem) / 100), 11.25rem);
+    border-radius: 12.5rem;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    transition: .5s
+}
+
+.block-text-grid .wrapper .grid-column .grid-image .avatar-image:hover {
+    background-color: #ffffae
+}
+
+.block-text-grid .wrapper .grid-column .grid-image .avatar-image svg {
+    color: #fff;
+    width: 30%
+}
+
+.block-text-grid .wrapper .grid-column .grid-image .avatar-text {
+    margin: min(.625rem + .625 * ((100vw - 20rem) / 100), 1.25rem) auto 0 auto;
+    display: block;
+    text-align: center;
+    width: min(6.25rem + 1.875 * ((100vw - 20rem) / 100), 8.125rem);
+    font-size: min(.75rem + .25 * ((100vw - 20rem) / 100), 1rem);
+    font-weight: 500;
+    line-height: 100%;
+    color: #fff
+}
+
+.block-text-grid .wrapper .grid-column .grid-image.grid-1 {
+    grid-area: grid-1;
+    border-bottom-right-radius: min(1.25rem + 3.75 * ((100vw - 20rem) / 100), 5rem);
+    z-index: 3
+}
+
+.block-text-grid .wrapper .grid-column .grid-image.grid-1 .avatar {
+    background-color: #ff9a62;
+    z-index: 2
+}
+
+.block-text-grid .wrapper .grid-column .grid-image.grid-2 {
+    grid-area: grid-2;
+    border-bottom-left-radius: min(1.25rem + 3.75 * ((100vw - 20rem) / 100), 5rem);
+    z-index: 3
+}
+
+.block-text-grid .wrapper .grid-column .grid-image.grid-3 {
+    grid-area: grid-3;
+    border-top-left-radius: min(1.25rem + 3.75 * ((100vw - 20rem) / 100), 5rem);
+    z-index: 3
+}

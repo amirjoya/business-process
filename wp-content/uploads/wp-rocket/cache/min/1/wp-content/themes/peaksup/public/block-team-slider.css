@@ -1,0 +1,461 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-team-slider .avatar .avatar-image,
+.block-team-slider .avatar .avatar-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.block-team-slider .avatar .avatar-image,
+.block-team-slider .avatar .avatar-image img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    -o-object-position: center;
+    object-position: center
+}
+
+.block-team-slider .buttons .button svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.block-team-slider .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5625rem;
+    gap: .9375rem;
+    color: rgba(57, 62, 70, .4);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+.block-team-slider .pagination div {
+    align-self: center
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.component-modal.details .name {
+    margin-bottom: min(.9375rem + .9375 * ((100vw - 20rem) / 100), 1.875rem)
+}
+
+.component-modal.details .name p {
+    color: #393e46;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.component-modal.details .details p {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.block-team-slider {
+    overflow: hidden;
+    background-color: #f9f5eb
+}
+
+.block-team-slider .wrapper-container {
+    background-color: #fff;
+    border-top-right-radius: min(.0000625rem + 4.0624375 * ((100vw - 20rem) / 100), 4.0625rem);
+    border-top-left-radius: min(.0000625rem + 4.0624375 * ((100vw - 20rem) / 100), 4.0625rem);
+    padding: min(2.5rem + 6.875 * ((100vw - 20rem) / 100), 9.375rem) min(.75rem + 3.625 * ((100vw - 20rem) / 100), 4.375rem) min(1.5625rem + 4.6875 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-team-slider .wrapper-container.spacing-small {
+    padding: min(2.5rem + .625 * ((100vw - 20rem) / 100), 3.125rem) min(.75rem + 1.75 * ((100vw - 20rem) / 100), 2.5rem) min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem)
+}
+
+.block-team-slider .wrapper-container.spacing-medium {
+    padding: min(2.5rem + 6.875 * ((100vw - 20rem) / 100), 9.375rem) min(.75rem + 3.625 * ((100vw - 20rem) / 100), 4.375rem) min(1.5625rem + 4.6875 * ((100vw - 20rem) / 100), 6.25rem)
+}
+
+.block-team-slider .wrapper-container.spacing-large {
+    padding: min(2.5rem + 10 * ((100vw - 20rem) / 100), 12.5rem) min(.75rem + 6.75 * ((100vw - 20rem) / 100), 7.5rem) min(1.5625rem + 7.8125 * ((100vw - 20rem) / 100), 9.375rem)
+}
+
+.block-team-slider .wrapper-container.spacing-none {
+    padding: 0
+}
+
+.block-team-slider h3 {
+    text-align: center;
+    margin-bottom: min(1.5625rem + 4.6875 * ((100vw - 20rem) / 100), 6.25rem);
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.block-team-slider .component-slider {
+    width: 100%
+}
+
+@media(min-width:48rem) {
+    .block-team-slider .component-slider {
+        width: 50%
+    }
+}
+
+@media(min-width:75rem) {
+    .block-team-slider .component-slider {
+        width: 33.333%
+    }
+}
+
+@media(min-width:112.5rem) {
+    .block-team-slider .component-slider {
+        width: 25%
+    }
+}
+
+.block-team-slider .avatar {
+    width: min(8.125rem + 8.125 * ((100vw - 20rem) / 100), 16.25rem);
+    height: min(8.75rem + 8.4375 * ((100vw - 20rem) / 100), 17.1875rem);
+    overflow: hidden;
+    border-bottom-left-radius: 31.25rem;
+    border-bottom-right-radius: 31.25rem;
+    aspect-ratio: 1/1;
+    position: relative;
+    margin: 0 auto min(1.25rem + 1.875 * ((100vw - 20rem) / 100), 3.125rem) auto
+}
+
+@media(min-width:48rem) {
+    .block-team-slider .avatar {
+        margin: 0 auto min(1.25rem + 1.875 * ((100vw - 20rem) / 100), 3.125rem) 0
+    }
+}
+
+.block-team-slider .avatar::after {
+    background-color: #4cb078;
+    content: "";
+    position: absolute;
+    display: block;
+    width: min(8.125rem + 8.125 * ((100vw - 20rem) / 100), 16.25rem);
+    height: min(8.125rem + 8.125 * ((100vw - 20rem) / 100), 16.25rem);
+    border-radius: 31.25rem;
+    bottom: 0;
+    z-index: 0
+}
+
+.block-team-slider .avatar .avatar-image,
+.block-team-slider .avatar .avatar-image img {
+    -o-object-position: bottom center;
+    object-position: bottom center;
+    z-index: 1
+}
+
+.block-team-slider .info {
+    width: 100%
+}
+
+.block-team-slider .name {
+    border-bottom: 1px solid rgba(57, 62, 70, .5);
+    padding-bottom: min(.625rem + .9375 * ((100vw - 20rem) / 100), 1.5625rem);
+    margin-bottom: min(.625rem + .9375 * ((100vw - 20rem) / 100), 1.5625rem)
+}
+
+.block-team-slider .name p {
+    color: #393e46;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.block-team-slider .name p:not(:first-child) {
+    opacity: .5
+}
+
+.block-team-slider .links {
+    display: flex;
+    justify-content: space-between
+}
+
+.block-team-slider .links.align-end {
+    justify-content: flex-end
+}
+
+.block-team-slider .buttons {
+    align-self: center;
+    display: flex;
+    gap: min(.625rem + .9375 * ((100vw - 20rem) / 100), 1.5625rem)
+}
+
+.block-team-slider .buttons .button {
+    background-color: rgba(57, 62, 70, .1);
+    aspect-ratio: 1/1;
+    border: none;
+    position: relative;
+    width: min(1.5625rem + 1.25 * ((100vw - 20rem) / 100), 2.8125rem);
+    height: min(1.5625rem + 1.25 * ((100vw - 20rem) / 100), 2.8125rem);
+    border-radius: 6.25rem;
+    transition: 250ms
+}
+
+.block-team-slider .buttons .button:hover svg {
+    color: #4cb078
+}
+
+.block-team-slider .buttons .button svg {
+    width: 45%;
+    transition: 250ms;
+    color: #4cb078
+}
+
+@media(min-width:48rem) {
+    .block-team-slider .buttons .button svg {
+        color: rgba(57, 62, 70, .2)
+    }
+}
+
+.block-team-slider .swiper-wrapper {
+    margin: 0 clamp(-.78125rem, -.3125rem + -.46875 * ((100vw - 20rem) / 100), -5px)
+}
+
+.block-team-slider .swiper-slide {
+    padding: 0 min(.3125rem + .46875 * ((100vw - 20rem) / 100), .78125rem);
+    height: auto
+}
+
+.block-team-slider .swiper-slide:nth-child(4n+2) .avatar::after {
+    background-color: #ff9a62
+}
+
+.block-team-slider .swiper-slide:nth-child(4n+3) .avatar::after {
+    background-color: #ffffc7
+}
+
+.block-team-slider .swiper-slide:nth-child(4n+4) .avatar::after {
+    background-color: #233e8b
+}
+
+.block-team-slider .slide-content {
+    background-color: #f9f5eb;
+    border-radius: 0 min(1.875rem + 2.1875 * ((100vw - 20rem) / 100), 4.0625rem) min(1.875rem + 2.1875 * ((100vw - 20rem) / 100), 4.0625rem) min(1.875rem + 2.1875 * ((100vw - 20rem) / 100), 4.0625rem);
+    padding: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem) min(.9375rem + 1.25 * ((100vw - 20rem) / 100), 2.1875rem);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between
+}
+
+.block-team-slider .slide-content:has(.learn-more) {
+    padding: min(1.5625rem + 1.5625 * ((100vw - 20rem) / 100), 3.125rem) min(.9375rem + 1.25 * ((100vw - 20rem) / 100), 2.1875rem) min(.9375rem + 1.25 * ((100vw - 20rem) / 100), 2.1875rem)
+}
+
+.block-team-slider .pagination {
+    justify-content: space-between;
+    margin-top: min(1.5625rem + 4.6875 * ((100vw - 20rem) / 100), 6.25rem)
+}

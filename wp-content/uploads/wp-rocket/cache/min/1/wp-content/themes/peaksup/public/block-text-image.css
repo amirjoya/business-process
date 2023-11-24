@@ -1,0 +1,416 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+.display-1 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.25rem + 4 * ((100vw - 20rem) / 100), 6.25rem);
+    line-height: 108%
+}
+
+.display-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2.625rem + 6.75 * ((100vw - 20rem) / 100), 9.375rem);
+    line-height: 108%
+}
+
+.display-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(2rem + 3 * ((100vw - 20rem) / 100), 5rem);
+    line-height: 108%
+}
+
+.heading-2 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-2-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.5rem + 1.75 * ((100vw - 20rem) / 100), 3.25rem);
+    line-height: 108%;
+    letter-spacing: -2px
+}
+
+.heading-3 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-3-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.75rem + .875 * ((100vw - 20rem) / 100), 2.625rem);
+    line-height: 108%
+}
+
+.heading-4 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-4-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.25rem + .625 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 108%
+}
+
+.heading-5 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-5-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1.125rem + .625 * ((100vw - 20rem) / 100), 1.75rem);
+    line-height: 108%
+}
+
+.heading-6 {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.heading-6-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 1.5rem + 0 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: clamp(2.25rem, 2.25rem + 0 * ((100vw - 20rem) / 100), 2.25rem)
+}
+
+.text-small {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .5 * ((100vw - 20rem) / 100), 1.5rem);
+    line-height: 146%
+}
+
+.text-normal {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-normal-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1rem + .875 * ((100vw - 20rem) / 100), 1.875rem);
+    line-height: 146%
+}
+
+.text-large {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.text-large-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: min(1.25rem + 1.125 * ((100vw - 20rem) / 100), 2.375rem);
+    line-height: 146%
+}
+
+.button {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.button-bold {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.4375rem + .5625 * ((100vw - 20rem) / 100), 2rem)
+}
+
+.caption {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: min(1rem + .375 * ((100vw - 20rem) / 100), 1.375rem);
+    line-height: min(1.25rem + .125 * ((100vw - 20rem) / 100), 1.375rem)
+}
+
+@keyframes loading-1 {
+    0% {
+        transform: scale(0)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+@keyframes loading-3 {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(0)
+    }
+}
+
+@keyframes loading-2 {
+    0% {
+        transform: translate(0, 0)
+    }
+    100% {
+        transform: translate(24px, 0)
+    }
+}
+
+.block-text-image {
+    overflow: hidden
+}
+
+.block-text-image .wrapper-container.has-padding {
+    padding: min(1.5625rem + 10.9375 * ((100vw - 20rem) / 100), 12.5rem) 0
+}
+
+@media(min-width:48rem) {
+    .block-text-image .wrapper-container.has-padding .text-column {
+        padding: 0 !important
+    }
+}
+
+.block-text-image .wrapper-container.style-full {
+    background-color: #f9f5eb;
+    border-bottom-left-radius: min(.0000625rem + 4.9999375 * ((100vw - 20rem) / 100), 5rem);
+    border-bottom-right-radius: min(.0000625rem + 4.9999375 * ((100vw - 20rem) / 100), 5rem)
+}
+
+.block-text-image .wrapper-container.style-full .wrapper {
+    gap: 2.1875rem;
+    padding: 0
+}
+
+@media(min-width:48rem) {
+    .block-text-image .wrapper-container.style-full .wrapper::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        width: 50vw;
+        background-color: #f9f5eb;
+        right: 100%
+    }
+}
+
+@media(min-width:48rem) {
+    .block-text-image .wrapper-container.style-full .wrapper {
+        gap: min(3.125rem + 4.375 * ((100vw - 64rem) / 56), 7.5rem);
+        grid-template-columns: .9fr 1.1fr;
+        padding-left: min(3.125rem + 4.375 * ((100vw - 64rem) / 56), 7.5rem);
+        padding-right: 0
+    }
+}
+
+@media(min-width:48rem) {
+    .block-text-image .wrapper-container.style-full .wrapper.position-left {
+        padding-left: 0;
+        padding-right: min(3.125rem + 4.375 * ((100vw - 64rem) / 56), 7.5rem);
+        grid-template-columns: 1.1fr .9fr;
+        border-bottom-left-radius: min(1.875rem + 3.125 * ((100vw - 20rem) / 100), 5rem)
+    }
+    .block-text-image .wrapper-container.style-full .wrapper.position-left::before {
+        right: unset;
+        left: 100%
+    }
+}
+
+.block-text-image .wrapper-container.style-full .wrapper.position-left .image-column {
+    border-bottom-left-radius: min(1.875rem + 3.125 * ((100vw - 20rem) / 100), 5rem);
+    border-bottom-right-radius: 0
+}
+
+@media(min-width:48rem) {
+    .block-text-image .wrapper-container.style-full .wrapper.position-right {
+        border-bottom-right-radius: min(1.875rem + 3.125 * ((100vw - 20rem) / 100), 5rem)
+    }
+}
+
+.block-text-image .wrapper-container.style-full .wrapper.position-right .image-column {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: min(1.875rem + 3.125 * ((100vw - 20rem) / 100), 5rem)
+}
+
+.block-text-image .wrapper-container.style-full .wrapper .text-column {
+    padding: 0 6px 1.25rem 6px
+}
+
+@media(min-width:48rem) {
+    .block-text-image .wrapper-container.style-full .wrapper .text-column {
+        padding: min(.0000625rem + 6.2499375 * ((100vw - 48rem) / 72), 6.25rem) 0
+    }
+}
+
+.block-text-image .wrapper-container.style-block .wrapper {
+    gap: 1.875rem;
+    padding: min(3.125rem + 3.125 * ((100vw - 20rem) / 100), 6.25rem) 6px
+}
+
+@media(min-width:48rem) {
+    .block-text-image .wrapper-container.style-block .wrapper.position-left {
+        grid-template-columns: 1fr 1fr
+    }
+}
+
+.block-text-image .wrapper-container.style-block .wrapper.position-left .image-column {
+    padding-top: min(1.25rem + 3.75 * ((100vw - 20rem) / 100), 5rem);
+    padding-left: min(1.25rem + 3.75 * ((100vw - 20rem) / 100), 5rem);
+    padding-right: 0
+}
+
+.block-text-image .wrapper-container.style-block .wrapper.position-left .image-column .image::before {
+    background-color: #233e8b;
+    left: clamp(-5rem, -1.25rem + -3.75 * ((100vw - 20rem) / 100), -1.25rem);
+    right: auto
+}
+
+@media(min-width:48rem) {
+    .block-text-image .wrapper-container.style-block .wrapper {
+        gap: min(2.375rem + 5.4375 * ((100vw - 64rem) / 56), 7.8125rem);
+        grid-template-columns: 1fr 1fr;
+        padding: min(3.125rem + 3.125 * ((100vw - 20rem) / 100), 6.25rem) min(.375rem + 4 * ((100vw - 20rem) / 100), 4.375rem)
+    }
+}
+
+.block-text-image .wrapper-container.style-block .wrapper .image-column {
+    padding-top: min(1.25rem + 3.75 * ((100vw - 20rem) / 100), 5rem);
+    padding-right: min(1.25rem + 3.75 * ((100vw - 20rem) / 100), 5rem)
+}
+
+.block-text-image .wrapper-container.style-block .wrapper .image-column .image {
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content
+}
+
+.block-text-image .wrapper-container.style-block .wrapper .image-column .image * {
+    z-index: 1
+}
+
+.block-text-image .wrapper-container.style-block .wrapper .image-column .image::before {
+    background-color: #a9f1df;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: clamp(-5rem, -1.25rem + -3.75 * ((100vw - 20rem) / 100), -1.25rem);
+    right: clamp(-5rem, -1.25rem + -3.75 * ((100vw - 20rem) / 100), -1.25rem);
+    z-index: 0
+}
+
+.block-text-image .wrapper {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    padding: 0;
+    grid-template-columns: 1fr;
+    align-items: center
+}
+
+.block-text-image .wrapper.position-left .text-column {
+    order: 2
+}
+
+.block-text-image .wrapper.position-left .image-column {
+    order: 1
+}
+
+.block-text-image .text-column {
+    position: relative;
+    order: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: min(1.25rem + 1.25 * ((100vw - 20rem) / 100), 2.5rem)
+}
+
+.block-text-image .text-column.align-top {
+    align-self: flex-start
+}
+
+.block-text-image .text-column.align-bottom {
+    align-self: flex-end
+}
+
+.block-text-image .text-column.align-center {
+    align-self: center
+}
+
+.block-text-image .text-column p:not(:last-child) {
+    margin-bottom: min(.625rem + 1.5625 * ((100vw - 20rem) / 100), 2.1875rem)
+}
+
+@media(min-width:48rem) {
+    .block-text-image .text-column {
+        order: 1
+    }
+}
+
+.block-text-image .image-column {
+    position: relative;
+    align-self: flex-start;
+    order: 1;
+    overflow: hidden
+}
+
+.block-text-image .image-column.align-top {
+    align-self: flex-start
+}
+
+.block-text-image .image-column.align-bottom {
+    align-self: flex-end
+}
+
+.block-text-image .image-column.align-center {
+    align-self: center
+}
+
+@media(min-width:48rem) {
+    .block-text-image .image-column {
+        order: 2
+    }
+}
